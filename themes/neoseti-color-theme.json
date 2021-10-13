@@ -29,6 +29,16 @@
 		"editor.selectionBackground": "#00336f",
 		"editor.wordHighlightBackground": "#00336f",
 		// +++++++++++++++++++++++++
+		// Editor widget colors
+		// +++++++++++++++++++++++++
+		"editorSuggestWidget.background": "#090B0D",
+		"editorSuggestWidget.foreground": "#293C44",
+		"editorSuggestWidget.border": "#001833",
+		"editorSuggestWidget.focusHighlightForeground": "#E39438",
+		"editorSuggestWidget.highlightForeground": "#466674",
+		"editorSuggestWidget.selectedBackground": "#13181c",
+		"editorSuggestWidget.selectedForeground": "#7494A3",
+		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++
 		"editorGroupHeader.tabsBackground": "#001a39",

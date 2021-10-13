@@ -20,6 +20,7 @@
 		// +++++++++++++++++++++++++
 		"editor.background": "#090b0d", //"#0E1112",
 		"editor.foreground": "#7494a3",
+		"editor.lineHighlightBorder": "#ff000000",
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++

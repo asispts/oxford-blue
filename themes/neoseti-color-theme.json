@@ -23,6 +23,7 @@
 		"editor.foreground": "#ff0000", // Mark unsupported token // "#849FBE",
 		"editor.lineHighlightBackground": "#002959",
 		"editor.lineHighlightBorder": "#ff000000",
+		"editorCursor.foreground": "#FF4081",
 		"editorLineNumber.foreground": "#3D5066",
 		"editorLineNumber.activeForeground": "#717E8C",
 		// +++++++++++++++++++++++++

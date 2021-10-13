@@ -1,36 +1,161 @@
 {
 	"name": "neoseti",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		// +++++++++++++++++++++++++
 		// Base colors
 		// +++++++++++++++++++++++++
-		"foreground": "#7494a3",
+		"foreground": "#849FBE",
 		// +++++++++++++++++++++++++
 		// Activity Bar
 		// +++++++++++++++++++++++++
-		"activityBar.background": "#090b0d",
+		"activityBar.background": "#001d42",
 		// +++++++++++++++++++++++++
 		// Sidebar
 		// +++++++++++++++++++++++++
-		"sideBar.background": "#0E1112",
-		"sideBarSectionHeader.background": "#0E1112",
+		"sideBar.background": "#07264c",
+		"sideBarSectionHeader.background": "#001a39",
 		// +++++++++++++++++++++++++
 		// Editor
 		// +++++++++++++++++++++++++
-		"editor.background": "#090b0d", //"#0E1112",
-		"editor.foreground": "#7494a3",
+		"editor.background": "#002147",
+		"editor.foreground": "#ff0000", // Mark unsupported token // "#849FBE",
+		"editor.lineHighlightBackground": "#002959",
 		"editor.lineHighlightBorder": "#ff000000",
+		"editorLineNumber.foreground": "#3D5066",
+		"editorLineNumber.activeForeground": "#717E8C",
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++
-		"editorGroupHeader.tabsBackground": "#0e1112",
-		"tab.activeBackground": "#4d5a5e",
-		"tab.inactiveBackground": "#1F2326",
+		"editorGroupHeader.tabsBackground": "#001a39",
+		"tab.inactiveBackground": "#001a39",
+		"tab.activeBackground": "#002959",
+		"tab.border": "#002959",
 		// +++++++++++++++++++++++++
 		// Status bar
 		// +++++++++++++++++++++++++
-		"statusBar.background": "#1F2326",
+		"statusBar.background": "#001a39",
 	},
-	"tokenColors": []
+	"tokenColors": [
+		{
+			"name": "Fallback text",
+			"scope": [
+				"entity",
+				"meta",
+				"text",
+				"source"
+			],
+			"settings": {
+				"foreground": "#FF3D00",
+			}
+		},
+		// +++++++++++++++++++++++++
+		// Comments
+		// +++++++++++++++++++++++++
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#0077FF",
+			}
+		},
+		{
+			"name": "Comment keyword",
+			"scope": [
+				"keyword.other.phpdoc",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0077FF",
+			}
+		},
+		{
+			"name": "Built-in functions",
+			"scope": [
+				"support.function.array",
+			],
+			"settings": {
+				"foreground": "#FF8A65",
+			}
+		},
+		{
+			"name": "Punctuation, namespace, and muted text",
+			"scope": [
+				"keyword.operator.class",
+				"keyword.operator.assignment",
+				"punctuation",
+				"support.other.namespace",
+				"entity.name.type.namespace",
+				"meta.class"
+			],
+			"settings": {
+				"foreground": "#5A6570",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"punctuation.definition.variable",
+			],
+			"settings": {
+				"foreground": "#ffe140",
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant",
+			],
+			"settings": {
+				"foreground": "#B388FF",
+			}
+		},
+		{
+			"name": "Keywords and storage",
+			"scope": [
+				"keyword",
+				"storage",
+			],
+			"settings": {
+				"foreground": "#00E676",
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#FF80AB", // "#FF80AB",
+			}
+		},
+		{
+			"name": "Properties and method call",
+			"scope": [
+				"variable.other.property",
+				"meta.method-call",
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#57a6a8",
+			}
+		},
+		{
+			"name": "Dependencies",
+			"scope": [
+				"support.class",
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#4DD0E1",
+			}
+		}
+	]
 }

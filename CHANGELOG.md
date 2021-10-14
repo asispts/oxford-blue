@@ -1,9 +1,11 @@
 # Change Log
-
-All notable changes to the "neoseti" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
 
+## [0.1] - 2021-10-14
 - Initial release
+
+
+[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.1...master
+[0.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.1

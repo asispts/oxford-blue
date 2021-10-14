@@ -133,6 +133,8 @@
 				"keyword",
 				"storage.modifier",
 				"storage.type",
+				"support.type.property-name",
+				"punctuation.support.type.property-name"
 			],
 			"settings": {
 				"foreground": "#00E676",

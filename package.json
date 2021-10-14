@@ -10,6 +10,12 @@
         "dark theme",
         "vscode theme"
     ],
+    "author": {
+        "name": "Asis Pattisahusiwa",
+        "email": "asis.pattisahusiwa@gmail.com",
+        "url": "https://github.com/pattisahusiwa"
+    },
+    "homepage": "https://github.com/pattisahusiwa/oxford-blue",
     "repository": {
         "type": "git",
         "url": "https://github.com/pattisahusiwa/oxford-blue"

@@ -1,2 +1,3 @@
-# neoseti
-vscode theme based on seti
+# oxford-blue
+
+Yet another Visual Studio Code (vscode) dark theme.

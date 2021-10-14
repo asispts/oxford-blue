@@ -1,3 +1,4 @@
+# Oxford Blue
 ```txt
               ____               __   __    __
   ____  _  __/ __/___  _________/ /  / /_  / /_  _____
@@ -11,7 +12,7 @@ Yet another Visual Studio Code (vscode) dark theme.
 
 ---
 
-This theme is created mainly with `PHP` and frontend languages in mind.
+`oxford-blue` is created mainly with `PHP` and frontend languages in mind.
 Feel free to send a feedback when it looks ugly in your preferred languages.
 
 ## Preview

@@ -1,9 +1,22 @@
 {
     "name": "oxford-blue",
-    "displayName": "Oxford Blue theme",
+    "displayName": "oxford-blue dark theme",
     "description": "vscode dark theme using oxford blue as a background color",
     "publisher": "asispts",
+    "license": "MIT",
     "version": "0.0.1",
+    "keywords": {
+        "theme",
+        "dark theme",
+        "vscode theme"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pattisahusiwa/oxford-blue"
+    },
+    "bugs": {
+        "url": "https://github.com/pattisahusiwa/oxford-blue/issues"
+    },
     "engines": {
         "vscode": "^1.61.0"
     },

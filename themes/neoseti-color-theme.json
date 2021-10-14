@@ -90,7 +90,7 @@
 		{
 			"name": "Built-in functions",
 			"scope": [
-				"support.function.array",
+				"support.function",
 			],
 			"settings": {
 				"foreground": "#FF8A65",
@@ -99,8 +99,6 @@
 		{
 			"name": "Punctuation, namespace, and muted text",
 			"scope": [
-				"keyword.operator.class",
-				"keyword.operator.assignment",
 				"punctuation",
 				"support.other.namespace",
 				"entity.name.type.namespace",
@@ -133,7 +131,8 @@
 			"name": "Keywords and storage",
 			"scope": [
 				"keyword",
-				"storage",
+				"storage.modifier",
+				"storage.type",
 			],
 			"settings": {
 				"foreground": "#00E676",
@@ -146,7 +145,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#FF80AB", // "#FF80AB",
+				"foreground": "#FF80AB",
 			}
 		},
 		{

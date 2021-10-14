@@ -10,16 +10,16 @@
 		// +++++++++++++++++++++++++
 		// Activity Bar
 		// +++++++++++++++++++++++++
-		"activityBar.background": "#001d42",
+		"activityBar.background": "#001a39",
 		// +++++++++++++++++++++++++
 		// Sidebar
 		// +++++++++++++++++++++++++
-		"sideBar.background": "#07264c",
+		"sideBar.background": "#002147",
 		"sideBarSectionHeader.background": "#001a39",
 		// +++++++++++++++++++++++++
 		// Editor
 		// +++++++++++++++++++++++++
-		"editor.background": "#002147",
+		"editor.background": "#072140",
 		"editor.foreground": "#849FBE",
 		"editor.lineHighlightBackground": "#002959",
 		"editor.lineHighlightBorder": "#ff000000",
@@ -41,10 +41,14 @@
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++
-		"editorGroupHeader.tabsBackground": "#001a39",
-		"tab.inactiveBackground": "#001a39",
-		"tab.activeBackground": "#002959",
-		"tab.border": "#002959",
+		"editorGroupHeader.tabsBackground": "#002147",
+		"tab.inactiveBackground": "#002147",
+		"tab.activeBackground": "#001a39",
+		"tab.border": "#001a39",
+		// +++++++++++++++++++++++++
+		// Breadcrumbs colors
+		// +++++++++++++++++++++++++
+		"breadcrumb.background": "#001a39",
 		// +++++++++++++++++++++++++
 		// Status bar
 		// +++++++++++++++++++++++++

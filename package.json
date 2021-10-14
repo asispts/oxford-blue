@@ -5,11 +5,11 @@
     "publisher": "asispts",
     "license": "MIT",
     "version": "0.1.0",
-    "keywords": {
+    "keywords": [
         "theme",
         "dark theme",
         "vscode theme"
-    },
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/pattisahusiwa/oxford-blue"

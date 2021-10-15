@@ -52,11 +52,12 @@
 		"editorGroupHeader.tabsBackground": "#002147",
 		"tab.inactiveBackground": "#002147",
 		"tab.activeBackground": "#001a39",
-		"tab.border": "#001a39",
+		"tab.border": "#002d61",
 		// +++++++++++++++++++++++++
 		// Breadcrumbs colors
 		// +++++++++++++++++++++++++
 		"breadcrumb.background": "#001a39",
+		"breadcrumb.foreground": "#5483a3",
 		// +++++++++++++++++++++++++
 		// Status bar
 		// +++++++++++++++++++++++++

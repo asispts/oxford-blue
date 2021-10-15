@@ -12,7 +12,7 @@
 		// +++++++++++++++++++++++++
 		"activityBar.background": "#001a39",
 		"activityBar.foreground": "#E4E413",
-		"activityBar.inactiveForeground": "#176BCF",
+		"activityBar.inactiveForeground": "#004699",
 		"activityBarBadge.background": "#E4E413",
 		"activityBarBadge.foreground": "#001a39",
 		// +++++++++++++++++++++++++
@@ -29,13 +29,12 @@
 		// +++++++++++++++++++++++++
 		"editor.background": "#001a39",
 		"editor.foreground": "#9bc4e2",
-		"editor.lineHighlightBackground": "#002959",
-		"editor.lineHighlightBorder": "#ff000000",
 		"editorCursor.foreground": "#E4E413",
-		"editorLineNumber.foreground": "#3D5066",
-		"editorLineNumber.activeForeground": "#717E8C",
-		"editor.selectionBackground": "#00336f",
-		"editor.wordHighlightBackground": "#00336f",
+		"editorLineNumber.foreground": "#004699",
+		"editorLineNumber.activeForeground": "#E4E413",
+		"editor.lineHighlightBackground": "#092E59",
+		"editor.lineHighlightBorder": "#00000000",
+		"editor.selectionBackground": "#596280",
 		// +++++++++++++++++++++++++
 		// Editor widget colors
 		// +++++++++++++++++++++++++

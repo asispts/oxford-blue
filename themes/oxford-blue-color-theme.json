@@ -11,7 +11,10 @@
 		// Activity Bar
 		// +++++++++++++++++++++++++
 		"activityBar.background": "#001a39",
-		"activityBar.foreground": "#5483a3",
+		"activityBar.foreground": "#E4E413",
+		"activityBar.inactiveForeground": "#176BCF",
+		"activityBarBadge.background": "#E4E413",
+		"activityBarBadge.foreground": "#001a39",
 		// +++++++++++++++++++++++++
 		// Sidebar
 		// +++++++++++++++++++++++++
@@ -26,7 +29,7 @@
 		"editor.foreground": "#9bc4e2",
 		"editor.lineHighlightBackground": "#002959",
 		"editor.lineHighlightBorder": "#ff000000",
-		"editorCursor.foreground": "#e5e619",
+		"editorCursor.foreground": "#E4E413",
 		"editorLineNumber.foreground": "#3D5066",
 		"editorLineNumber.activeForeground": "#717E8C",
 		"editor.selectionBackground": "#00336f",

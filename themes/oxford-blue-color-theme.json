@@ -25,7 +25,7 @@
 		// +++++++++++++++++++++++++
 		// Editor
 		// +++++++++++++++++++++++++
-		"editor.background": "#072140",
+		"editor.background": "#001a39",
 		"editor.foreground": "#9bc4e2",
 		"editor.lineHighlightBackground": "#002959",
 		"editor.lineHighlightBorder": "#ff000000",

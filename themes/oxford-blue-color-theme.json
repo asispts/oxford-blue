@@ -61,7 +61,13 @@
 		// Status bar
 		// +++++++++++++++++++++++++
 		"statusBar.background": "#E4E413",
-		"statusBar.foreground": "#072140"
+		"statusBar.foreground": "#072140",
+		// +++++++++++++++++++++++++
+		// Editor widget
+		// +++++++++++++++++++++++++
+		"editorWidget.background": "#002147",
+		"editorWidget.foreground": "#5483a3",
+		"editorWidget.border": "#007FD4",
 	},
 	"tokenColors": [
 		// +++++++++++++++++++++++++

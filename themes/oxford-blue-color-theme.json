@@ -58,7 +58,8 @@
 		// +++++++++++++++++++++++++
 		// Status bar
 		// +++++++++++++++++++++++++
-		"statusBar.background": "#001a39",
+		"statusBar.background": "#E4E413",
+		"statusBar.foreground": "#072140"
 	},
 	"tokenColors": [
 		// +++++++++++++++++++++++++

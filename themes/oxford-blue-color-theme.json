@@ -68,7 +68,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#596280",
+				"foreground": "#176BCF",
 			}
 		},
 		{
@@ -78,7 +78,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic bold",
-				"foreground": "#80879f",
+				"foreground": "#176BCF",
 			}
 		},
 		{

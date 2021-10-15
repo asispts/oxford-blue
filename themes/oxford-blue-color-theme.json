@@ -77,6 +77,17 @@
 		"editorWidget.background": "#002147",
 		"editorWidget.foreground": "#5483a3",
 		"editorWidget.border": "#007FD4",
+		// +++++++++++++++++++++++++
+		// Input background
+		// +++++++++++++++++++++++++
+		"input.background": "#002147",
+		"input.border": "#004699",
+		// +++++++++++++++++++++++++
+		// Dropdown
+		// +++++++++++++++++++++++++
+		"dropdown.background": "#002147",
+		"dropdown.foreground": "#5483a3",
+		"dropdown.border": "#004699",
 	},
 	"tokenColors": [
 		// +++++++++++++++++++++++++

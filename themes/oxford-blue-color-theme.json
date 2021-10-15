@@ -88,6 +88,10 @@
 		"dropdown.background": "#002147",
 		"dropdown.foreground": "#5483a3",
 		"dropdown.border": "#004699",
+		// +++++++++++++++++++++++++
+		// Panel
+		// +++++++++++++++++++++++++
+		"panel.border": "#E4E413"
 	},
 	"tokenColors": [
 		// +++++++++++++++++++++++++

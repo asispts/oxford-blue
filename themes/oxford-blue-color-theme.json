@@ -11,6 +11,7 @@
 		// Activity Bar
 		// +++++++++++++++++++++++++
 		"activityBar.background": "#001a39",
+		"activityBar.foreground": "#5483a3",
 		// +++++++++++++++++++++++++
 		// Sidebar
 		// +++++++++++++++++++++++++

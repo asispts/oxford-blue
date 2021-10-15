@@ -38,12 +38,12 @@
 		// Editor widget colors
 		// +++++++++++++++++++++++++
 		"editorSuggestWidget.background": "#002147",
-		"editorSuggestWidget.foreground": "#72a0c1",
+		"editorSuggestWidget.foreground": "#5483a3",
 		"editorSuggestWidget.border": "#007FD4",
 		"editorSuggestWidget.selectedBackground": "#094771",
 		"editorSuggestWidget.selectedForeground": "#d1deea",
-		"editorSuggestWidget.focusHighlightForeground": "#bdda57",
-		"editorSuggestWidget.highlightForeground": "#bdda57",
+		"editorSuggestWidget.focusHighlightForeground": "#E4E413",
+		"editorSuggestWidget.highlightForeground": "#E4E413",
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++

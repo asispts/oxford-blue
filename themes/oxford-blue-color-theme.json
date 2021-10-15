@@ -6,7 +6,7 @@
 		// +++++++++++++++++++++++++
 		// Base colors
 		// +++++++++++++++++++++++++
-		"foreground": "#8eabc1",
+		"foreground": "#9bc4e2",
 		// +++++++++++++++++++++++++
 		// Activity Bar
 		// +++++++++++++++++++++++++
@@ -42,7 +42,7 @@
 		"editorSuggestWidget.foreground": "#5483a3",
 		"editorSuggestWidget.border": "#007FD4",
 		"editorSuggestWidget.selectedBackground": "#094771",
-		"editorSuggestWidget.selectedForeground": "#d1deea",
+		"editorSuggestWidget.selectedForeground": "#9bc4e2",
 		"editorSuggestWidget.focusHighlightForeground": "#E4E413",
 		"editorSuggestWidget.highlightForeground": "#E4E413",
 		// +++++++++++++++++++++++++
@@ -50,7 +50,14 @@
 		// +++++++++++++++++++++++++
 		"editorGroupHeader.tabsBackground": "#002147",
 		"tab.inactiveBackground": "#002147",
-		"tab.activeBackground": "#001a39",
+		"tab.activeBackground": "#0A3466",
+		"tab.activeForeground": "#9bc4e2",
+		"tab.activeModifiedBorder": "#176BCF",
+		"tab.activeBorder": "#E4E413",
+		"tab.hoverBackground": "#0A3466",
+		"tab.hoverForeground": "#9bc4e2",
+		"tab.inactiveForeground": "#5483a3",
+		"tab.inactiveModifiedBorder": "#B387D3",
 		"tab.border": "#002d61",
 		// +++++++++++++++++++++++++
 		// Breadcrumbs colors

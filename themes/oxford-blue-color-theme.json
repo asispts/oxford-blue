@@ -22,8 +22,10 @@
 		"sideBarTitle.foreground": "#E4E413",
 		"sideBarSectionHeader.background": "#001a39",
 		"sideBarSectionHeader.foreground": "#9bc4e2",
-		"list.hoverBackground": "#094771",
-		"list.inactiveSelectionBackground": "#094771",
+		"list.hoverBackground": "#0A3466",
+		"list.inactiveSelectionBackground": "#0A3466",
+		"list.focusOutline": "#007FD4",
+		"list.activeSelectionBackground": "#0A3466",
 		// +++++++++++++++++++++++++
 		// Editor
 		// +++++++++++++++++++++++++

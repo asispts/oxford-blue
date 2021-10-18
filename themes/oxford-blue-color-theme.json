@@ -94,9 +94,6 @@
 		"panel.border": "#E4E413"
 	},
 	"tokenColors": [
-		// +++++++++++++++++++++++++
-		// Comments
-		// +++++++++++++++++++++++++
 		{
 			"name": "Comment",
 			"scope": [
@@ -119,6 +116,28 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
+				"meta.class",
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#9bc4e2",
+			}
+		},
+		{
+			"name": "Muted text",
+			"scope": [
+				"support.other.namespace",
+				"punctuation.separator.inheritance",
+				"entity.name.type.namespace",
+			],
+			"settings": {
+				"foreground": "#5a829e",
+			}
+		},
+		{
 			"name": "Constants",
 			"scope": [
 				"constant",
@@ -137,6 +156,9 @@
 				"foreground": "#50d0c3",
 			}
 		},
+		// +++++++++++++++++++++++++
+		//
+		// +++++++++++++++++++++++++
 		{
 			"name": "keywords, storage, HTML tags",
 			"scope": [
@@ -194,19 +216,6 @@
 			"settings": {
 				"foreground": "#FF8A65",
 			}
-		},
-		{
-			"name": "Punctuation, namespace, and muted text",
-			"scope": [
-				"punctuation",
-				"support.other.namespace",
-				"entity.name.type.namespace",
-				"meta.class",
-				"keyword.operator"
-			],
-			"settings": {
-				"foreground": "#5483a3",
-			}
-		},
+		}
 	]
 }

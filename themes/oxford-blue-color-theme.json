@@ -50,17 +50,17 @@
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++
-		"editorGroupHeader.tabsBackground": "#002147",
-		"tab.inactiveBackground": "#002147",
-		"tab.activeBackground": "#0A3466",
+		"editorGroupHeader.tabsBackground": "#001a39",
+		"tab.inactiveBackground": "#001a39",
+		"tab.activeBackground": "#002147",
 		"tab.activeForeground": "#9bc4e2",
 		"tab.activeModifiedBorder": "#176BCF",
 		"tab.activeBorder": "#efff73",
-		"tab.hoverBackground": "#0A3466",
+		"tab.hoverBackground": "#002147",
 		"tab.hoverForeground": "#9bc4e2",
 		"tab.inactiveForeground": "#5483a3",
 		"tab.inactiveModifiedBorder": "#B387D3",
-		"tab.border": "#002d61",
+		"tab.border": "#002147",
 		// +++++++++++++++++++++++++
 		// Breadcrumbs colors
 		// +++++++++++++++++++++++++

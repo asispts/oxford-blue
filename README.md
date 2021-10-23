@@ -1,4 +1,4 @@
-# Oxford-blue
+# Oxford-blue Theme for vscode
 
 [![vscode-marketplace](https://img.shields.io/visual-studio-marketplace/v/asispts.oxford-blue)](https://marketplace.visualstudio.com/items?itemName=asispts.oxford-blue)
 [![open-vsx](https://img.shields.io/open-vsx/v/asispts/oxford-blue)](https://open-vsx.org/extension/asispts/oxford-blue)
@@ -21,7 +21,7 @@ Yet another Visual Studio Code (vscode) dark theme.
 Feel free to send a feedback when it looks ugly in your preferred languages.
 
 ## Installation
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+Launch VS Code Quick Open (`Ctrl+P`), paste the following command, and press enter.
 ```bash
 ext install asispts.oxford-blue
 ```
@@ -29,11 +29,4 @@ ext install asispts.oxford-blue
 
 ## Preview
 
-- `PHP`
-![PHP](preview/php.png)
-
-- `HTML`
-![PHP](preview/html.png)
-
-- `reactjs`
-![PHP](preview/reactjs.png)
+![preview](preview/preview.png)

@@ -11,15 +11,15 @@
 		// Activity Bar
 		// +++++++++++++++++++++++++
 		"activityBar.background": "#001a39",
-		"activityBar.foreground": "#E4E413",
+		"activityBar.foreground": "#efff73",
 		"activityBar.inactiveForeground": "#004699",
-		"activityBarBadge.background": "#E4E413",
+		"activityBarBadge.background": "#efff73",
 		"activityBarBadge.foreground": "#001a39",
 		// +++++++++++++++++++++++++
 		// Sidebar
 		// +++++++++++++++++++++++++
 		"sideBar.background": "#002147",
-		"sideBarTitle.foreground": "#E4E413",
+		"sideBarTitle.foreground": "#efff73",
 		"sideBarSectionHeader.background": "#001a39",
 		"sideBarSectionHeader.foreground": "#9bc4e2",
 		"list.hoverBackground": "#0A3466",
@@ -31,9 +31,9 @@
 		// +++++++++++++++++++++++++
 		"editor.background": "#001a39",
 		"editor.foreground": "#9bc4e2",
-		"editorCursor.foreground": "#E4E413",
+		"editorCursor.foreground": "#efff73",
 		"editorLineNumber.foreground": "#004699",
-		"editorLineNumber.activeForeground": "#E4E413",
+		"editorLineNumber.activeForeground": "#efff73",
 		"editor.lineHighlightBackground": "#092E59",
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.selectionBackground": "#596280",
@@ -45,8 +45,8 @@
 		"editorSuggestWidget.border": "#007FD4",
 		"editorSuggestWidget.selectedBackground": "#094771",
 		"editorSuggestWidget.selectedForeground": "#9bc4e2",
-		"editorSuggestWidget.focusHighlightForeground": "#E4E413",
-		"editorSuggestWidget.highlightForeground": "#E4E413",
+		"editorSuggestWidget.focusHighlightForeground": "#efff73",
+		"editorSuggestWidget.highlightForeground": "#efff73",
 		// +++++++++++++++++++++++++
 		// Editor groups and tabs
 		// +++++++++++++++++++++++++
@@ -55,7 +55,7 @@
 		"tab.activeBackground": "#0A3466",
 		"tab.activeForeground": "#9bc4e2",
 		"tab.activeModifiedBorder": "#176BCF",
-		"tab.activeBorder": "#E4E413",
+		"tab.activeBorder": "#efff73",
 		"tab.hoverBackground": "#0A3466",
 		"tab.hoverForeground": "#9bc4e2",
 		"tab.inactiveForeground": "#5483a3",
@@ -69,7 +69,7 @@
 		// +++++++++++++++++++++++++
 		// Status bar
 		// +++++++++++++++++++++++++
-		"statusBar.background": "#E4E413",
+		"statusBar.background": "#efff73",
 		"statusBar.foreground": "#072140",
 		// +++++++++++++++++++++++++
 		// Editor widget
@@ -91,7 +91,7 @@
 		// +++++++++++++++++++++++++
 		// Panel
 		// +++++++++++++++++++++++++
-		"panel.border": "#E4E413"
+		"panel.border": "#efff73"
 	},
 	"tokenColors": [
 		{

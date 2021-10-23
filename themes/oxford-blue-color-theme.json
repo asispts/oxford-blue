@@ -119,11 +119,10 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
-				"meta.class",
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#9bc4e2",
+				"foreground": "#5a829e",
 			}
 		},
 		{
@@ -143,7 +142,7 @@
 				"constant",
 			],
 			"settings": {
-				"foreground": "#B387D3",
+				"foreground": "#B27BFF",
 			}
 		},
 		{
@@ -153,7 +152,7 @@
 				"punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#50d0c3",
+				"foreground": "#F5FBB7",
 			}
 		},
 		// +++++++++++++++++++++++++
@@ -172,7 +171,7 @@
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#DD9719",
+				"foreground": "#FF80C3",
 			}
 		},
 		{
@@ -184,17 +183,17 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#bdda57",
+				"foreground": "#E4E413",
 			}
 		},
 		{
-			"name": "Dependencies",
+			"name": "Built-in functions",
 			"scope": [
-				"support.class",
-				"entity.other.inherited-class"
+				"support.function",
+				"support.class.builtin"
 			],
 			"settings": {
-				"foreground": "#46d683",
+				"foreground": "#FF8A65",
 			}
 		},
 		{
@@ -205,17 +204,8 @@
 				"meta.function-call",
 			],
 			"settings": {
-				"foreground": "#19b2e6",
+				"foreground": "#9bc4e2"
 			}
 		},
-		{
-			"name": "Built-in functions",
-			"scope": [
-				"support.function",
-			],
-			"settings": {
-				"foreground": "#FF8A65",
-			}
-		}
 	]
 }

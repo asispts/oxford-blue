@@ -120,7 +120,6 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
-				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#5a829e",
@@ -166,6 +165,7 @@
 			"name": "keywords, storage, HTML tags",
 			"scope": [
 				"keyword",
+				"keyword.operator.new", // js new operator
 				"storage.modifier",
 				"storage.type",
 				"support.type.property-name.json",
@@ -179,6 +179,16 @@
 			],
 			"settings": {
 				"foreground": "#ffa65e",
+			}
+		},
+		{
+			"name": "Keyword operators",
+			"scope": [
+				"keyword.operator",
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#9BC4E2",
 			}
 		},
 		{

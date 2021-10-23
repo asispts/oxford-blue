@@ -27,7 +27,7 @@ tag,
     content: "";
     display: flex;
     border-top: 1px solid lighten($gray-light, 15);
-    background-color: white;
+    background-color: powderblue !important;
     padding-top: (9/16) * 100%;
 
     @include md-and-up {

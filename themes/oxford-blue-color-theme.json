@@ -140,7 +140,9 @@
 			"name": "Constants",
 			"scope": [
 				"constant",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded", // <?php ?>
+				"keyword.other.unit", // scss e.q: 100%
+				"punctuation.definition.constant", // scss e.q: #f00
 			],
 			"settings": {
 				"foreground": "#B27BFF",
@@ -169,7 +171,9 @@
 				"punctuation.support.type.property-name",
 				"entity.name.tag",
 				"punctuation.definition.tag",
-				"support.type.primitive"
+				"support.type.primitive",
+				"punctuation.definition.keyword", // scss e.q: @import
+				"punctuation.definition.interpolation", // scss e.q: #{...}
 			],
 			"settings": {
 				"foreground": "#ffa65e",

@@ -164,7 +164,7 @@
 				"keyword",
 				"storage.modifier",
 				"storage.type",
-				"support.type.property-name",
+				"support.type.property-name.json",
 				"punctuation.support.type.property-name",
 				"entity.name.tag",
 				"punctuation.definition.tag",

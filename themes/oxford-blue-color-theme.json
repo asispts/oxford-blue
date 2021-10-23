@@ -71,6 +71,7 @@
 		// +++++++++++++++++++++++++
 		"statusBar.background": "#efff73",
 		"statusBar.foreground": "#072140",
+		"statusBarItem.hoverBackground": "#bdcf44",
 		// +++++++++++++++++++++++++
 		// Editor widget
 		// +++++++++++++++++++++++++

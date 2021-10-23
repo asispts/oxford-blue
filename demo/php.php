@@ -33,6 +33,7 @@ final class ClassName extends AbstractClass implements InterfaceA, InterfaceB
     public function getConnection(): ?PDO
     {
         // keyword.operator.class
+        // variable.other.property
         return $this->pdo;
     }
 

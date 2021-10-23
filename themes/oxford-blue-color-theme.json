@@ -213,5 +213,59 @@
 				"foreground": "#FF80C3",
 			}
 		},
+		// +++++++++++++++++++++++++
+		// Markdown
+		// +++++++++++++++++++++++++
+		{
+			"name": "Markdown headings",
+			"scope": [
+				"entity.name.section",
+				"punctuation.definition.heading"
+			],
+			"settings": {
+				"foreground": "#ffa65e",
+			}
+		},
+		{
+			"name": "Markdown italic",
+			"scope": [
+				"markup.italic",
+				"punctuation.definition.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF80C3",
+			}
+		},
+		{
+			"name": "Markdown bold",
+			"scope": [
+				"markup.bold",
+				"punctuation.definition.bold"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FF80C3",
+			}
+		},
+		{
+			"name": "Markdown inline code",
+			"scope": [
+				"markup.inline.raw",
+				"punctuation.definition.raw"
+			],
+			"settings": {
+				"foreground": "#efff73",
+			}
+		},
+		{
+			"name": "Markdown link",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#0AE0EE",
+			}
+		},
 	]
 }

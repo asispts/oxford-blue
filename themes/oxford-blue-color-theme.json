@@ -216,12 +216,21 @@
 		{
 			"name": "Properties and method call",
 			"scope": [
-				"variable.other.property",
 				"meta.method-call",
 				"meta.function-call",
 			],
 			"settings": {
 				"foreground": "#FF80C3",
+			}
+		},
+		{
+			"name": "Reset",
+			"scope": [
+				"support.class",
+				"variable.other.property",
+			],
+			"settings": {
+				"foreground": "#9BC4E2",
 			}
 		},
 		// +++++++++++++++++++++++++

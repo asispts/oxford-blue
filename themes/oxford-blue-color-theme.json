@@ -146,7 +146,7 @@
 				"support.constant", // php e.q: DIRECTORY_SEPARATOR
 			],
 			"settings": {
-				"foreground": "#B27BFF",
+				"foreground": "#8373ff",
 			}
 		},
 		{

@@ -143,6 +143,7 @@
 				"punctuation.section.embedded", // <?php ?>
 				"keyword.other.unit", // scss e.q: 100%
 				"punctuation.definition.constant", // scss e.q: #f00
+				"support.constant", // php e.q: DIRECTORY_SEPARATOR
 			],
 			"settings": {
 				"foreground": "#B27BFF",

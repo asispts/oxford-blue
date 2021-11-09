@@ -159,6 +159,15 @@
 				"foreground": "#64DE83",
 			}
 		},
+		{
+			"name": "Reset colors",
+			"scope": [
+				"variable.other.property",
+			],
+			"settings": {
+				"foreground": "#9BC4E2",
+			}
+		},
 		// +++++++++++++++++++++++++
 		//
 		// +++++++++++++++++++++++++

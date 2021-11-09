@@ -182,16 +182,6 @@
 			}
 		},
 		{
-			"name": "Keyword operators",
-			"scope": [
-				"keyword.operator",
-				"storage.type.function.arrow"
-			],
-			"settings": {
-				"foreground": "#9BC4E2",
-			}
-		},
-		{
 			"name": "Variables",
 			"scope": [
 				"variable",
@@ -201,36 +191,6 @@
 			],
 			"settings": {
 				"foreground": "#efff73",
-			}
-		},
-		{
-			"name": "Built-in functions",
-			"scope": [
-				"support.function",
-				"support.class.builtin"
-			],
-			"settings": {
-				"foreground": "#0AE0EE",
-			}
-		},
-		{
-			"name": "Properties and method call",
-			"scope": [
-				"meta.method-call",
-				"meta.function-call",
-			],
-			"settings": {
-				"foreground": "#FF80C3",
-			}
-		},
-		{
-			"name": "Reset",
-			"scope": [
-				"support.class",
-				"variable.other.property",
-			],
-			"settings": {
-				"foreground": "#9BC4E2",
 			}
 		},
 		// +++++++++++++++++++++++++

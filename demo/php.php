@@ -40,6 +40,15 @@ final class ClassName extends AbstractClass implements InterfaceA, InterfaceB
     // entity.name.function
     public function methodName(array $params): ?string
     {
+        if ($node instanceof Class_ || $node instanceof Trait_) {
+            // Register any trait uses.
+            foreach ($node->stmts as $stmt) {
+                if ($stmt instanceof TraitUse) {
+                    array_push($this->dependencies, ...$this->namesToStrings($stmt->traits));
+                }
+            }
+        }
+
         // support.function
         if (empty($param) === false && is_object($params)) return array_unique(['test', ...$params]);
 

@@ -49,6 +49,11 @@ final class ClassName extends AbstractClass implements InterfaceA, InterfaceB
             }
         }
 
+        try {
+            throw new \Exception("Error Processing Request", 1);
+        } catch (\Throwable $th) {
+        }
+
         // support.function
         if (empty($param) === false && is_object($params)) return array_unique(['test', ...$params]);
 

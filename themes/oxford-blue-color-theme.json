@@ -215,10 +215,37 @@
 		{
 			"name": "functions call",
 			"scope": [
-				"entity.name.function"
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#ff7a73"
+			}
+		},
+		{
+			"name": "methods call",
+			"scope": [
+				"meta.method-call"
 			],
 			"settings": {
 				"foreground": "#9BC4E2",
+			}
+		},
+		{
+			"name": "Built-in classes",
+			"scope": [
+				"support.class.builtin",
+			],
+			"settings": {
+				"foreground": "#ff7a73",
+			}
+		},
+		{
+			"name": "Support classes",
+			"scope": [
+				"support.class",
+			],
+			"settings": {
+				"foreground": "#0AE0EE",
 			}
 		},
 		// +++++++++++++++++++++++++

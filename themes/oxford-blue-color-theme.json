@@ -203,6 +203,24 @@
 				"foreground": "#efff73",
 			}
 		},
+		{
+			"name": "Built-in functions",
+			"scope": [
+				"support.function",
+			],
+			"settings": {
+				"foreground": "#ff73ef",
+			}
+		},
+		{
+			"name": "functions call",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#5effdc",
+			}
+		},
 		// +++++++++++++++++++++++++
 		// Markdown
 		// +++++++++++++++++++++++++

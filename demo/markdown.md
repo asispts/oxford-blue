@@ -21,6 +21,15 @@ Text ``Use `code` in your Markdown file.`` text
 echo 'Hello world';
 ```
 
+```html
+<p>Hello world</p>
+```
+
+```bash
+composer install
+composer update
+```
+
 This is the first line.\
 And this is the second line.
 

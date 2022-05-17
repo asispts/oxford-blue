@@ -249,6 +249,19 @@
 			}
 		},
 		// +++++++++++++++++++++++++
+		// PHP only
+		// ++++++++++++++++++++++++
+		{
+			"name": "Attribute",
+			"scope": [
+				"meta.attribute.php"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#176BCF",
+			}
+		},
+		// +++++++++++++++++++++++++
 		// Markdown
 		// +++++++++++++++++++++++++
 		{

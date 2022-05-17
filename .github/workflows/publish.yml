@@ -5,7 +5,7 @@ on:
 
 name: Deploy Extension
 jobs:
-  deploy:
+  deploy-vsx:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,6 +16,14 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v0
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
+
+  deploy-vs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v0
         with:

@@ -1,5 +1,5 @@
-const x = (x, y) => x * y;
-const x = (x, y) => { return x * y };
+const xxx = (x, y) => x * y;
+const xx = (x, y) => { return x * y };
 
 // Create Objects
 const apples = {name: 'Apples'};

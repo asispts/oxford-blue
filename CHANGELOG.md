@@ -2,7 +2,10 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
-
+  ### Changed
+  - Separate deploy task between vscode and vsx marketplaces
+  - Change color of `punctuation.definition.entity` (e.q: `&copy;`)
+  - Modify color of PHP8 attributes
 
 ## [0.4] - 2022-05-17
   ### Added

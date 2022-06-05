@@ -24,9 +24,14 @@ final class ClassName extends AbstractClass implements InterfaceA, InterfaceB
      */
     private $pdo;
 
-    #[stdClass]
-    #[ORM\Id, ORM\GeneratedValue, ORM\Column(type:Types::INTEGER)]
+    #[ORM\Id]
+    #[ORM\GeneratedValue]
+    #[ORM\Column(type:'integer')]
     public readonly int $id;
+
+    #[Assert\NotBlank, Assert\Length(max:16)]
+    #[ORM\Column(type:Types::STRING, length:16, unique:true)]
+    public string $name;
 
     // support.function.constructor
     public function __construct()

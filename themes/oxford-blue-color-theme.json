@@ -227,14 +227,30 @@
       }
     },
     // +++++++++++++++++++++++++
-    // PHP only
+    // PHP8 attributes
     // ++++++++++++++++++++++++
     {
-      "name": "Attribute",
+      "name": "Attribute type",
+      "scope": ["support.attribute.php"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5a829e"
+      }
+    },
+    {
+      "name": "Attribute punctuation",
       "scope": ["meta.attribute.php"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#176BCF"
+        "foreground": "#5a829e"
+      }
+    },
+    {
+      "name": "Attribute parameters",
+      "scope": ["entity.name.variable.parameter"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5a829e"
       }
     },
     // +++++++++++++++++++++++++

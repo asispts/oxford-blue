@@ -1,41 +1,42 @@
 {
-    "name": "oxford-blue",
-    "displayName": "Oxford-blue Theme",
-    "description": "Yet another Visual Studio Code (vscode) dark theme",
-    "publisher": "asispts",
-    "license": "MIT",
-    "version": "0.4.0",
-    "keywords": [
-        "theme",
-        "dark theme",
-        "vscode theme"
-    ],
-    "author": {
-        "name": "Asis Pattisahusiwa",
-        "email": "asis.pattisahusiwa@gmail.com",
-        "url": "https://github.com/pattisahusiwa"
-    },
-    "homepage": "https://github.com/pattisahusiwa/oxford-blue",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pattisahusiwa/oxford-blue"
-    },
-    "bugs": {
-        "url": "https://github.com/pattisahusiwa/oxford-blue/issues"
-    },
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "oxford-blue",
-                "uiTheme": "vs-dark",
-                "path": "./themes/oxford-blue-color-theme.json"
-            }
-        ]
-    }
+  "name": "oxford-blue",
+  "displayName": "Oxford-blue Theme",
+  "description": "Yet another Visual Studio Code (vscode) dark theme",
+  "publisher": "asispts",
+  "license": "MIT",
+  "version": "0.4.0",
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "vscode theme"
+  ],
+  "author": {
+    "name": "Asis Pattisahusiwa",
+    "email": "asis.pattisahusiwa@gmail.com",
+    "url": "https://github.com/pattisahusiwa"
+  },
+  "homepage": "https://github.com/pattisahusiwa/oxford-blue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pattisahusiwa/oxford-blue"
+  },
+  "bugs": {
+    "url": "https://github.com/pattisahusiwa/oxford-blue/issues"
+  },
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "oxford-blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oxford-blue-color-theme.json"
+      }
+    ]
+  }
 }

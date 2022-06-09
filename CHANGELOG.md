@@ -2,10 +2,16 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
+
+
+## [0.5.0]
+  ### Added
+  - Add package icon
+
   ### Changed
-  - Separate deploy task between vscode and vsx marketplaces
+  - Separate deploy tasks between vscode and vsx marketplaces
   - Change color of `punctuation.definition.entity` (e.q: `&copy;`)
-  - Modify color of PHP8 attributes
+  - Better color theme for PHP 8 attributes
 
 ## [0.4] - 2022-05-17
   ### Added
@@ -60,7 +66,8 @@ All notable changes to this theme will be documented in this file.
 - Initial release
 
 
-[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.4...master
+[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.5...master
+[0.5]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.5
 [0.4]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.4
 [0.3.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.3.1
 [0.3]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.3

@@ -5,3 +5,6 @@
 vsc-extension-quickstart.md
 preview/**
 node_modules/**
+pnpm-lock.yaml
+tsconfig.json
+src/**

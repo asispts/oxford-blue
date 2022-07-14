@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import editorColor from "./editor/editorColor";
+import tokenColors from "./token/tokenColors";
 
 async function generate(content: string) {
   try {
@@ -14,7 +15,7 @@ const theme = {
   type: "dark",
   semanticHighlighting: true,
   colors: editorColor,
-  tokenColors: [],
+  tokenColors: tokenColors,
 };
 
 generate(JSON.stringify(theme));

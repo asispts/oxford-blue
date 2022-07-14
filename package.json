@@ -40,7 +40,7 @@
     ]
   },
   "scripts": {
-    "dev": "ts-node-dev --respawn src/main.ts"
+    "dev": "ts-node-dev --respawn --files src/main.ts"
   },
   "devDependencies": {
     "@types/node": "^18.0.4",

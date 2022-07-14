@@ -13,8 +13,8 @@
   ],
   "author": {
     "name": "Asis Pattisahusiwa",
-    "email": "asis.pattisahusiwa@gmail.com",
-    "url": "https://github.com/pattisahusiwa"
+    "email": "asispts@gmail.com",
+    "url": "https://github.com/asispts"
   },
   "homepage": "https://github.com/pattisahusiwa/oxford-blue",
   "repository": {
@@ -38,5 +38,8 @@
         "path": "./themes/oxford-blue-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }

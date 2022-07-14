@@ -4,4 +4,7 @@
 .gitignore
 vsc-extension-quickstart.md
 preview/**
-demo/**
+node_modules/**
+pnpm-lock.yaml
+tsconfig.json
+src/**

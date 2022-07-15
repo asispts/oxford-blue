@@ -1,6 +1,6 @@
-import tokenColorsDef from "../colors/tokenColorsDef";
-import tokenScope from "../utils/helper";
-import markdownColors from "./markdown";
+import tokenColorsDef from "./colors/tokenColorsDef";
+import markdownColors from "./token/markdown";
+import tokenScope from "./utils/helper";
 
 const scope: TokenScopeType = {
   default: ["variable.other.property", "meta.method-call"],
@@ -82,4 +82,6 @@ const markdownScope = markdownColors();
 
 tokenColors.push(...markdownScope);
 
-export default tokenColors;
+export default function getTokenColor() {
+  return tokenColors;
+}

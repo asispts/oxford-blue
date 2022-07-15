@@ -1,3 +1,4 @@
+import tokenColorsDef from "../colors/tokenColorsDef";
 import tokenScope from "../utils/helper";
 
 export default function getPhpTokens() {
@@ -12,7 +13,7 @@ export default function getPhpTokens() {
       "entity.name.variable.parameter",
     ],
     {
-      foreground: "#5a829e",
+      foreground: tokenColorsDef.muted,
       fontStyle: "italic",
     }
   );

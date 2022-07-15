@@ -1,3 +1,4 @@
+import tokenColorsDef from "../colors/tokenColorsDef";
 import tokenScope from "../utils/helper";
 
 export default function getMakefileTokens() {
@@ -10,7 +11,7 @@ export default function getMakefileTokens() {
       "entity.name.function.target", // makefile target
     ],
     {
-      foreground: "#ffa65e",
+      foreground: tokenColorsDef.keyword,
     }
   );
 

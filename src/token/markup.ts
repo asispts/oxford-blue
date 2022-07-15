@@ -1,3 +1,4 @@
+import tokenColorsDef from "../colors/tokenColorsDef";
 import tokenScope from "../utils/helper";
 
 export default function getMarkupTokens() {
@@ -11,7 +12,7 @@ export default function getMarkupTokens() {
       "punctuation.definition.tag", // markup <> characters
     ],
     {
-      foreground: "#ffa65e",
+      foreground: tokenColorsDef.keyword,
     }
   );
 
@@ -22,7 +23,7 @@ export default function getMarkupTokens() {
       "entity.other.attribute-name", // markup attribute name
     ],
     {
-      foreground: "#efff73",
+      foreground: tokenColorsDef.variable,
     }
   );
 

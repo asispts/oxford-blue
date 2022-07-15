@@ -69,7 +69,7 @@
                 "meta.method-call"
             ],
             "settings": {
-                "foreground": "#9BC4E2"
+                "foreground": "#9bc4e2"
             }
         },
         {
@@ -91,7 +91,7 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#176BCF",
+                "foreground": "#176bcf",
                 "fontStyle": "italic"
             }
         },
@@ -101,7 +101,7 @@
                 "keyword.other.phpdoc"
             ],
             "settings": {
-                "foreground": "#176BCF",
+                "foreground": "#176bcf",
                 "fontStyle": "italic bold"
             }
         },
@@ -112,7 +112,7 @@
                 "punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#64DE83"
+                "foreground": "#64de83"
             }
         },
         {
@@ -177,7 +177,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#0AE0EE"
+                "foreground": "#0ae0ee"
             }
         },
         {
@@ -266,7 +266,7 @@
                 "markup.underline.link"
             ],
             "settings": {
-                "foreground": "#0AE0EE"
+                "foreground": "#0ae0ee"
             }
         },
         {

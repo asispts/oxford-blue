@@ -1,3 +1,4 @@
+import tokenColorsDef from "../colors/tokenColorsDef";
 import tokenScope from "../utils/helper";
 
 export default function getScssTokens() {
@@ -12,7 +13,7 @@ export default function getScssTokens() {
       "punctuation.definition.interpolation", // scss e.q: #{...}
     ],
     {
-      foreground: "#ffa65e",
+      foreground: tokenColorsDef.keyword,
     }
   );
 
@@ -23,7 +24,7 @@ export default function getScssTokens() {
       "entity.name.tag.css", // tag selector
     ],
     {
-      foreground: "#ffa65e",
+      foreground: tokenColorsDef.keyword,
     }
   );
 
@@ -35,7 +36,7 @@ export default function getScssTokens() {
       "entity.other.attribute-name.id.css", // id selector
     ],
     {
-      foreground: "#efff73",
+      foreground: tokenColorsDef.variable,
     }
   );
 

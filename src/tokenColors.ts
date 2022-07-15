@@ -9,28 +9,40 @@ import getScssTokens from "./token/scss";
 import tokenScope from "./utils/helper";
 
 function generateToken(tokens: Array<TokenColorType>, scope: TokenScopeType) {
-  tokenScope(tokens, "Default color", scope.default, { foreground: "#9BC4E2" });
-  tokenScope(tokens, "Muted text", scope.muted, { foreground: "#5a829e" });
+  tokenScope(tokens, "Default color", scope.default, {
+    foreground: tokenColorsDef.default,
+  });
+  tokenScope(tokens, "Muted text", scope.muted, {
+    foreground: tokenColorsDef.muted,
+  });
   tokenScope(tokens, "Comment", scope.comments, {
-    foreground: tokenColorsDef.blue,
+    foreground: tokenColorsDef.comment,
     fontStyle: "italic",
   });
   tokenScope(tokens, "Comment Keyword", scope.commentKeywords, {
-    foreground: tokenColorsDef.blue,
+    foreground: tokenColorsDef.comment,
     fontStyle: "italic bold",
   });
-  tokenScope(tokens, "String", scope.strings, { foreground: "#64DE83" });
-  tokenScope(tokens, "Constant", scope.constants, { foreground: "#8373ff" });
-  tokenScope(tokens, "Keywords", scope.keywords, { foreground: "#ffa65e" });
-  tokenScope(tokens, "Variables", scope.variables, { foreground: "#efff73" });
+  tokenScope(tokens, "String", scope.strings, {
+    foreground: tokenColorsDef.string,
+  });
+  tokenScope(tokens, "Constant", scope.constants, {
+    foreground: tokenColorsDef.constant,
+  });
+  tokenScope(tokens, "Keywords", scope.keywords, {
+    foreground: tokenColorsDef.keyword,
+  });
+  tokenScope(tokens, "Variables", scope.variables, {
+    foreground: tokenColorsDef.variable,
+  });
   tokenScope(tokens, "Built-in functions and classes", scope.builtin, {
-    foreground: "#ff73ef",
+    foreground: tokenColorsDef.builtin,
   });
   tokenScope(tokens, "Functions call", scope.functionCalls, {
-    foreground: "#ff7a73",
+    foreground: tokenColorsDef.functionCalls,
   });
   tokenScope(tokens, "Support classes", scope.supportClasses, {
-    foreground: "#0AE0EE",
+    foreground: tokenColorsDef.supportClass,
   });
 }
 

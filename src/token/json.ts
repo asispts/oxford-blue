@@ -1,3 +1,4 @@
+import tokenColorsDef from "../colors/tokenColorsDef";
 import tokenScope from "../utils/helper";
 
 export default function getJsonTokens() {
@@ -11,7 +12,7 @@ export default function getJsonTokens() {
       "punctuation.support.type.property-name", // json object key quotation
     ],
     {
-      foreground: "#ffa65e",
+      foreground: tokenColorsDef.keyword,
     }
   );
 

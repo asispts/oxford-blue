@@ -1,21 +1,22 @@
 import fs from "node:fs/promises";
-import editorColor from "./editor/editorColor";
-import tokenColors from "./token/tokenColors";
+import getEditorColor from "./editorColor";
+import getTokenColor from "./tokenColors";
 
-async function generate(content: string) {
+(async function () {
+  const theme = {
+    name: "oxford-blue",
+    type: "dark",
+    semanticHighlighting: true,
+    colors: getEditorColor(),
+    tokenColors: getTokenColor(),
+  };
+
   try {
-    await fs.writeFile("./oxford-blue-color-theme.json", content);
+    await fs.writeFile(
+      "./oxford-blue-color-theme.json",
+      JSON.stringify(theme, null, 4)
+    );
   } catch (error) {
     console.log(error);
   }
-}
-
-const theme = {
-  name: "oxford-blue",
-  type: "dark",
-  semanticHighlighting: true,
-  colors: editorColor,
-  tokenColors: tokenColors,
-};
-
-generate(JSON.stringify(theme));
+})();

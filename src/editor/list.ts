@@ -1,10 +1,14 @@
 import editorColorDef from "../colors/editorColorDef";
 
 const list = {
-  "list.hoverBackground": editorColorDef.blue,
+  "list.focusOutline": editorColorDef.blue,
+
+  "list.hoverBackground": editorColorDef.obLight,
   "list.hoverForeground": editorColorDef.steelBlueLight,
-  "list.inactiveSelectionBackground": editorColorDef.obDark,
-  "list.focusOutline": editorColorDef.obLight,
+
+  "list.inactiveSelectionBackground": editorColorDef.obLight,
+  "list.inactiveFocusOutline": editorColorDef.blue,
+
   "list.activeSelectionBackground": editorColorDef.obLight,
   "list.activeSelectionForeground": editorColorDef.steelBlueLight,
 };

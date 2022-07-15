@@ -32,6 +32,12 @@ function generateToken(tokens: Array<TokenColorType>, scope: TokenScopeType) {
   tokenScope(tokens, "Keywords", scope.keywords, {
     foreground: tokenColorsDef.keyword,
   });
+  tokenScope(tokens, "Modifiers", scope.modifiers, {
+    foreground: tokenColorsDef.keyword,
+  });
+  tokenScope(tokens, "Data types", scope.datatypes, {
+    foreground: tokenColorsDef.keyword,
+  });
   tokenScope(tokens, "Variables", scope.variables, {
     foreground: tokenColorsDef.variable,
   });

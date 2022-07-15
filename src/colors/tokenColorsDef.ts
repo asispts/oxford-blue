@@ -22,6 +22,8 @@ const tokenColorsDef = {
   builtin: colors.magenta,
   functionCalls: colors.red,
   supportClass: colors.cyan,
+  datatype: colors.orange,
+  modifier: colors.orange,
 };
 
 export default tokenColorsDef;

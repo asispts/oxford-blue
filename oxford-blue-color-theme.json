@@ -133,8 +133,24 @@
             "name": "Keywords",
             "scope": [
                 "keyword",
-                "keyword.operator.new",
-                "storage.modifier",
+                "keyword.operator.new"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "Modifiers",
+            "scope": [
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "Data types",
+            "scope": [
                 "storage.type",
                 "support.type.primitive"
             ],

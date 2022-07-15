@@ -26,7 +26,9 @@ export default function getGenericScope(): TokenScopeType {
     keywords: [
       "keyword",
       "keyword.operator.new", // js new operator
-      "storage.modifier",
+    ],
+    modifiers: ["storage.modifier"],
+    datatypes: [
       "storage.type",
       "support.type.primitive", // Primitive data types in typescript
     ],

@@ -1,7 +1,7 @@
 import editorColorDef from "../colors/editorColorDef";
 
 const editorWidget = {
-  "editorWidget.background": editorColorDef.ob,
+  "editorWidget.background": editorColorDef.obDark,
   "editorWidget.foreground": editorColorDef.steelBlue,
   "editorWidget.border": editorColorDef.blue,
 };

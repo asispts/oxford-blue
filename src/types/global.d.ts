@@ -18,8 +18,7 @@ interface TokenScopeType {
   constants: Array<string>;
   keywords: Array<string>;
   variables: Array<string>;
-  builtinFunctions: Array<string>;
+  builtin: Array<string>;
   functionCalls: Array<string>;
   supportClasses: Array<string>;
-  attributes: Array<string>;
 }

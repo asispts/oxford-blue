@@ -1,13 +1,14 @@
 function tokenScope(
+  token: Array<TokenColorType>,
   name: string,
   scope: Array<string>,
   settings: TokenSettingType
-): TokenColorType {
-  return {
-    name,
-    scope,
-    settings,
-  };
+) {
+  if (scope.length <= 0) {
+    return;
+  }
+
+  token.push({ name, scope, settings });
 }
 
 export default tokenScope;

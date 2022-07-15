@@ -1,87 +1,58 @@
 import tokenColorsDef from "./colors/tokenColorsDef";
-import markdownColors from "./token/markdown";
+import getGenericScope from "./token/generic";
+import getJsonTokens from "./token/json";
+import getMakefileTokens from "./token/makefile";
+import getMarkdownTokens from "./token/markdown";
+import getMarkupTokens from "./token/markup";
+import getPhpTokens from "./token/php";
+import getScssTokens from "./token/scss";
 import tokenScope from "./utils/helper";
 
-const scope: TokenScopeType = {
-  default: ["variable.other.property", "meta.method-call"],
-  muted: [
-    "punctuation",
-    "support.other.namespace",
-    "punctuation.separator.inheritance",
-    "entity.name.type.namespace",
-  ],
-  comments: ["comment", "punctuation.definition.comment"],
-  commentKeywords: ["keyword.other.phpdoc"],
-  strings: ["string", "punctuation.definition.string"],
-  constants: [
-    "constant",
-    "punctuation.section.embedded", // <?php ?>
-    "keyword.other.unit", // scss e.q: 100%
-    "punctuation.definition.constant", // scss e.q: #f00
-    "support.constant", // php e.q: DIRECTORY_SEPARATOR
-    "punctuation.definition.entity", // html e.q: &copy;
-  ],
-  keywords: [
-    "keyword",
-    "keyword.operator.new", // js new operator
-    "storage.modifier",
-    "storage.type",
-    "support.type.property-name.json",
-    "punctuation.support.type.property-name",
-    "entity.name.tag",
-    "punctuation.definition.tag",
-    "support.type.primitive",
-    "punctuation.definition.keyword", // scss e.q: @import
-    "punctuation.definition.interpolation", // scss e.q: #{...}
-    "entity.name.function.target", // makefile target
-  ],
-  variables: [
-    "variable",
-    "punctuation.definition.variable",
-    "entity.other.attribute-name",
-  ],
-  builtinFunctions: ["support.function", "support.class.builtin"],
-  functionCalls: ["meta.function-call"],
-  supportClasses: ["support.class"],
-  attributes: [
-    "support.attribute.php",
-    "meta.attribute.php",
-    "entity.name.variable.parameter",
-  ],
-};
-
-const tokenColors: Array<TokenColorType> = [
-  tokenScope("Default color", scope.default, { foreground: "#9BC4E2" }),
-  tokenScope("Muted text", scope.muted, { foreground: "#5a829e" }),
-  tokenScope("Comment", scope.comments, {
+function generateToken(tokens: Array<TokenColorType>, scope: TokenScopeType) {
+  tokenScope(tokens, "Default color", scope.default, { foreground: "#9BC4E2" });
+  tokenScope(tokens, "Muted text", scope.muted, { foreground: "#5a829e" });
+  tokenScope(tokens, "Comment", scope.comments, {
     foreground: tokenColorsDef.blue,
     fontStyle: "italic",
-  }),
-  tokenScope("Comment Keyword", scope.commentKeywords, {
+  });
+  tokenScope(tokens, "Comment Keyword", scope.commentKeywords, {
     foreground: tokenColorsDef.blue,
     fontStyle: "italic bold",
-  }),
-  tokenScope("String", scope.strings, { foreground: "#64DE83" }),
-  tokenScope("Constant", scope.constants, { foreground: "#8373ff" }),
-  tokenScope("Keywords", scope.keywords, { foreground: "#ffa65e" }),
-  tokenScope("Variables", scope.variables, { foreground: "#efff73" }),
-  tokenScope("Built-in functions", scope.builtinFunctions, {
+  });
+  tokenScope(tokens, "String", scope.strings, { foreground: "#64DE83" });
+  tokenScope(tokens, "Constant", scope.constants, { foreground: "#8373ff" });
+  tokenScope(tokens, "Keywords", scope.keywords, { foreground: "#ffa65e" });
+  tokenScope(tokens, "Variables", scope.variables, { foreground: "#efff73" });
+  tokenScope(tokens, "Built-in functions and classes", scope.builtin, {
     foreground: "#ff73ef",
-  }),
-  tokenScope("Functions call", scope.functionCalls, { foreground: "#ff7a73" }),
-  tokenScope("Support classes", scope.supportClasses, {
+  });
+  tokenScope(tokens, "Functions call", scope.functionCalls, {
+    foreground: "#ff7a73",
+  });
+  tokenScope(tokens, "Support classes", scope.supportClasses, {
     foreground: "#0AE0EE",
-  }),
-  tokenScope("PHP8 attributes", scope.attributes, {
-    foreground: "#5a829e",
-    fontStyle: "italic",
-  }),
-];
-
-const markdownScope = markdownColors();
-
-tokenColors.push(...markdownScope);
+  });
+}
 
 export default function getTokenColor() {
-  return tokenColors;
+  const scope = getGenericScope();
+  const tokens: Array<TokenColorType> = [];
+  generateToken(tokens, scope);
+
+  const phpTokens = getPhpTokens();
+  const mdTokens = getMarkdownTokens();
+  const jsonTokens = getJsonTokens();
+  const markupTokens = getMarkupTokens();
+  const scssTokens = getScssTokens();
+  const makefileTokens = getMakefileTokens();
+
+  return [
+    ...tokens,
+    ...phpTokens,
+    ...mdTokens,
+    ...jsonTokens,
+    ...markupTokens,
+    ...scssTokens,
+    ...makefileTokens,
+  ];
 }

@@ -136,14 +136,7 @@
                 "keyword.operator.new",
                 "storage.modifier",
                 "storage.type",
-                "support.type.property-name.json",
-                "punctuation.support.type.property-name",
-                "entity.name.tag",
-                "punctuation.definition.tag",
-                "support.type.primitive",
-                "punctuation.definition.keyword",
-                "punctuation.definition.interpolation",
-                "entity.name.function.target"
+                "support.type.primitive"
             ],
             "settings": {
                 "foreground": "#ffa65e"
@@ -153,15 +146,14 @@
             "name": "Variables",
             "scope": [
                 "variable",
-                "punctuation.definition.variable",
-                "entity.other.attribute-name"
+                "punctuation.definition.variable"
             ],
             "settings": {
                 "foreground": "#efff73"
             }
         },
         {
-            "name": "Built-in functions",
+            "name": "Built-in functions and classes",
             "scope": [
                 "support.function",
                 "support.class.builtin"
@@ -275,6 +267,74 @@
             ],
             "settings": {
                 "foreground": "#0AE0EE"
+            }
+        },
+        {
+            "name": "JSON object key",
+            "scope": [
+                "support.type.property-name.json",
+                "punctuation.support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "Markup tag",
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "Markup attribute name",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#efff73"
+            }
+        },
+        {
+            "name": "SCSS keyword",
+            "scope": [
+                "keyword.control.at-rule",
+                "punctuation.definition.keyword",
+                "punctuation.definition.interpolation"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "CSS tag selector",
+            "scope": [
+                "entity.name.tag.css"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "CSS class and ID selector",
+            "scope": [
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.id.css"
+            ],
+            "settings": {
+                "foreground": "#efff73"
+            }
+        },
+        {
+            "name": "Makefile target",
+            "scope": [
+                "entity.name.function.target"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
             }
         }
     ]

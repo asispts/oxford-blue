@@ -18,4 +18,4 @@ const theme = {
   tokenColors: tokenColors,
 };
 
-generate(JSON.stringify(theme));
+generate(JSON.stringify(theme, null, 4));

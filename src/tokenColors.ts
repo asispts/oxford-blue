@@ -1,5 +1,6 @@
 import setGenericToken from "./token/genericToken";
 import jsonToken from "./token/jsonToken";
+import makefileToken from "./token/makefileToken";
 import phpToken from "./token/phpToken";
 import TokenColor from "./token/TokenColor";
 
@@ -9,6 +10,7 @@ export default function getTokenColor() {
   setGenericToken(token);
   phpToken(token);
   jsonToken(token);
+  makefileToken(token);
 
   return token.getData();
 }

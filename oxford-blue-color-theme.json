@@ -225,6 +225,24 @@
             "settings": {
                 "foreground": "#369CFF"
             }
+        },
+        {
+            "name": "Makefile target",
+            "scope": [
+                "entity.name.function.target"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
+            }
+        },
+        {
+            "name": "Makefile target",
+            "scope": [
+                "meta.scope.prerequisites"
+            ],
+            "settings": {
+                "foreground": "#64de83"
+            }
         }
     ]
 }

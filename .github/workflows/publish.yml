@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 16
       - name: Publish to Open VSX Registry
-        uses: HaaLeo/publish-vscode-extension@v0
+        uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
 
@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 16
       - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v0
+        uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com

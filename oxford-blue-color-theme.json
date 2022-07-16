@@ -215,6 +215,16 @@
                 "foreground": "#2D658D",
                 "fontStyle": "italic"
             }
+        },
+        {
+            "name": "JSON object key",
+            "scope": [
+                "support.type.property-name.json",
+                "punctuation.support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#4C9EFF"
+            }
         }
     ]
 }

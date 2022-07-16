@@ -46,6 +46,7 @@ const syntaxColors = {
   orange: "#ffa65e",
   salmon: "#ff7a73",
   magenta: "#ff73ef",
+  red: "#E6427C",
 };
 
 const tokenColorsDef = {

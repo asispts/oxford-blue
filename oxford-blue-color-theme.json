@@ -243,6 +243,34 @@
             "settings": {
                 "foreground": "#64de83"
             }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#E6427C"
+            }
+        },
+        {
+            "name": "Markup attribute name",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "JSX component",
+            "scope": [
+                "support.class.component"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
+            }
         }
     ]
 }

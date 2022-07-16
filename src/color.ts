@@ -1,32 +1,19 @@
-const colors = {
-  light: "#9bc4e2",
-  lightDark: "#5a829e",
-  blue: "#176bcf",
-  yellow: "#efff73",
-  green: "#64de83",
-  purple: "#8373ff",
-  cyan: "#0ae0ee",
-  orange: "#ffa65e",
-  magenta: "#ff73ef",
-  red: "#ff7a73",
-};
-
 const oxfordBlue = {
   default: "#002147",
   dark: "#001a39",
   light: "#002959",
 };
 
-const steelBlue = {
-  default: "#5A91BF",
-  dark: "#396A93",
-  light: "#91B6D4",
+const paleCerulean = {
+  default: "#72ABD6",
+  dark: "#2D658D",
+  light: "#9BC4E2",
 };
 
 const editorColorDef = {
   // Editor colors
   editorBg: oxfordBlue.dark,
-  editorFg: steelBlue.default,
+  editorFg: paleCerulean.default,
 
   // Background colors
   bgColor: oxfordBlue.default,
@@ -34,9 +21,9 @@ const editorColorDef = {
   bgLight: oxfordBlue.light,
 
   // Foreground colors
-  fgColor: steelBlue.default,
-  fgDark: steelBlue.dark,
-  fgLight: steelBlue.light,
+  fgColor: paleCerulean.default,
+  fgDark: paleCerulean.dark,
+  fgLight: paleCerulean.light,
 
   // Primary colors
   primary: "#0069e6",
@@ -48,19 +35,33 @@ const editorColorDef = {
   accentHover: "#bdcf44",
 };
 
-const tokenColorsDef = {
-  default: colors.light,
-  muted: colors.lightDark,
-  comment: colors.blue,
-  string: colors.green,
-  constant: colors.purple,
-  keyword: colors.orange,
-  variable: colors.yellow,
-  builtin: colors.magenta,
-  functionCalls: colors.red,
-  supportClass: colors.cyan,
-  datatype: colors.orange,
-  modifier: colors.orange,
+const syntaxColors = {
+  blue: "#176bcf",
+  blueLight: "#4C9EFF",
+  yellow: "#efff73",
+  yellowDark: "#d3e830",
+  green: "#64de83",
+  purple: "#8373ff",
+  cyan: "#13d3d3",
+  orange: "#ffa65e",
+  salmon: "#ff7a73",
+  magenta: "#ff73ef",
 };
 
-export { editorColorDef, tokenColorsDef };
+const tokenColorsDef = {
+  default: paleCerulean.default,
+  muted: paleCerulean.dark,
+  comment: paleCerulean.dark,
+  string: syntaxColors.green,
+  constant: syntaxColors.purple,
+  keyword: syntaxColors.blue,
+  keywordOperator: syntaxColors.salmon,
+  storage: syntaxColors.cyan,
+  dataType: syntaxColors.orange,
+  variable: syntaxColors.yellow,
+  builtin: syntaxColors.magenta,
+  supportClass: syntaxColors.blueLight,
+  functionCalls: paleCerulean.light,
+};
+
+export { editorColorDef, syntaxColors, tokenColorsDef };

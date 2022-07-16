@@ -1,8 +1,6 @@
 import { editorColorDef } from "../color";
 
-const input = {
-  "input.background": editorColorDef.bgDark,
-  "input.border": editorColorDef.primary,
-};
-
-export default input;
+export default function setInputColor(data: EditorColorMap) {
+  data.set("input.background", editorColorDef.bgDark);
+  data.set("input.border", editorColorDef.primary);
+}

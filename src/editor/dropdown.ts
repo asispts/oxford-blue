@@ -1,7 +1,5 @@
 import { editorColorDef } from "../color";
 
-const dropdown = {
-  "dropdown.background": editorColorDef.bgLight,
-};
-
-export default dropdown;
+export default function setDropdown(data: EditorColorMap) {
+  data.set("dropdown.background", editorColorDef.bgLight);
+}

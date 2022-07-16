@@ -1,7 +1,5 @@
 import { editorColorDef } from "../color";
 
-const panel = {
-  "panel.border": editorColorDef.accent,
-};
-
-export default panel;
+export default function setPanelColor(data: EditorColorMap) {
+  data.set("panel.border", editorColorDef.accent);
+}

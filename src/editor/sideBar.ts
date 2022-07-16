@@ -1,10 +1,8 @@
 import { editorColorDef } from "../color";
 
-const sidebar = {
-  "sideBar.background": editorColorDef.bgColor,
-  "sideBarTitle.foreground": editorColorDef.fgDark,
-  "sideBarSectionHeader.background": editorColorDef.bgDark,
-  "sideBarSectionHeader.foreground": editorColorDef.fgDark,
-};
-
-export default sidebar;
+export default function setSidebarColor(data: EditorColorMap) {
+  data.set("sideBar.background", editorColorDef.bgColor);
+  data.set("sideBarTitle.foreground", editorColorDef.fgDark);
+  data.set("sideBarSectionHeader.background", editorColorDef.bgDark);
+  data.set("sideBarSectionHeader.foreground", editorColorDef.fgDark);
+}

@@ -1,22 +1,20 @@
 import { editorColorDef } from "../color";
 
-const bgAlpha = `${editorColorDef.primary}40`;
+export default function setHeaderTab(data: EditorColorMap) {
+  const bgAlpha = `${editorColorDef.primary}40`;
 
-const headerTab = {
-  "editorGroupHeader.tabsBackground": editorColorDef.bgDark,
+  data.set("editorGroupHeader.tabsBackground", editorColorDef.bgDark);
 
-  "tab.border": editorColorDef.primary,
+  data.set("tab.border", editorColorDef.primary);
 
-  "tab.activeBackground": bgAlpha,
-  "tab.activeForeground": editorColorDef.primaryFg,
-  "tab.activeModifiedBorder": editorColorDef.accent,
+  data.set("tab.activeBackground", bgAlpha);
+  data.set("tab.activeForeground", editorColorDef.primaryFg);
+  data.set("tab.activeModifiedBorder", editorColorDef.accent);
 
-  "tab.inactiveBackground": editorColorDef.bgDark,
-  "tab.inactiveForeground": editorColorDef.fgDark,
-  "tab.inactiveModifiedBorder": editorColorDef.accent,
+  data.set("tab.inactiveBackground", editorColorDef.bgDark);
+  data.set("tab.inactiveForeground", editorColorDef.fgDark);
+  data.set("tab.inactiveModifiedBorder", editorColorDef.accent);
 
-  "tab.hoverBackground": bgAlpha,
-  "tab.hoverForeground": editorColorDef.primaryFg,
-};
-
-export default headerTab;
+  data.set("tab.hoverBackground", bgAlpha);
+  data.set("tab.hoverForeground", editorColorDef.primaryFg);
+}

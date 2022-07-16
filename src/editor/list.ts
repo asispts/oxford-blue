@@ -1,13 +1,11 @@
 import { editorColorDef } from "../color";
 
-const list = {
-  "list.focusOutline": editorColorDef.primary,
+export default function setListColor(data: EditorColorMap) {
+  data.set("list.focusOutline", editorColorDef.primary);
 
-  "list.hoverBackground": editorColorDef.bgLight,
+  data.set("list.hoverBackground", editorColorDef.bgLight);
 
-  "list.inactiveSelectionBackground": editorColorDef.bgLight,
+  data.set("list.inactiveSelectionBackground", editorColorDef.bgLight);
 
-  "list.activeSelectionBackground": editorColorDef.bgLight,
-};
-
-export default list;
+  data.set("list.activeSelectionBackground", editorColorDef.bgLight);
+}

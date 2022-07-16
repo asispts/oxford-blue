@@ -1,7 +1,5 @@
 import { editorColorDef } from "../color";
 
-const breadcrumb = {
-  "breadcrumb.background": editorColorDef.bgDark,
-};
-
-export default breadcrumb;
+export default function setBreadcrumb(data: EditorColorMap) {
+  data.set("breadcrumb.background", editorColorDef.bgDark);
+}

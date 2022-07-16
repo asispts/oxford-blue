@@ -1,13 +1,15 @@
 import { editorColorDef } from "../color";
 
-const editorSuggestWidget = {
-  "editorSuggestWidget.background": editorColorDef.bgColor,
-  "editorSuggestWidget.border": editorColorDef.primary,
-
-  "editorSuggestWidget.selectedBackground": `${editorColorDef.primary}40`,
-
-  "editorSuggestWidget.focusHighlightForeground": editorColorDef.accent,
-  "editorSuggestWidget.highlightForeground": editorColorDef.accent,
-};
-
-export default editorSuggestWidget;
+export default function setEditorSuggestWidget(data: EditorColorMap) {
+  data.set("editorSuggestWidget.background", editorColorDef.bgColor);
+  data.set("editorSuggestWidget.border", editorColorDef.primary);
+  data.set(
+    "editorSuggestWidget.selectedBackground",
+    `${editorColorDef.primary}40`
+  );
+  data.set(
+    "editorSuggestWidget.focusHighlightForeground",
+    editorColorDef.accent
+  );
+  data.set("editorSuggestWidget.highlightForeground", editorColorDef.accent);
+}

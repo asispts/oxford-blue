@@ -1,14 +1,12 @@
 import { editorColorDef } from "../color";
 
-const editor = {
-  "editor.background": editorColorDef.editorBg,
-  "editor.foreground": editorColorDef.editorFg,
-  "editorCursor.foreground": editorColorDef.accent,
-  "editorLineNumber.foreground": editorColorDef.primary,
-  "editorLineNumber.activeForeground": editorColorDef.accent,
-  "editor.lineHighlightBackground": editorColorDef.bgLight,
-  "editor.lineHighlightBorder": editorColorDef.editorBg,
-  "editor.selectionBackground": `${editorColorDef.primary}40`,
-};
-
-export default editor;
+export default function setEditor(data: EditorColorMap) {
+  data.set("editor.background", editorColorDef.editorBg);
+  data.set("editor.foreground", editorColorDef.editorFg);
+  data.set("editorCursor.foreground", editorColorDef.accent);
+  data.set("editorLineNumber.foreground", editorColorDef.primary);
+  data.set("editorLineNumber.activeForeground", editorColorDef.accent);
+  data.set("editor.lineHighlightBackground", editorColorDef.bgLight);
+  data.set("editor.lineHighlightBorder", editorColorDef.editorBg);
+  data.set("editor.selectionBackground", `${editorColorDef.primary}40`);
+}

@@ -24,3 +24,5 @@ interface TokenScopeType {
   functionCalls: Array<string>;
   supportClasses: Array<string>;
 }
+
+type EditorColorMap = Map<string, string>;

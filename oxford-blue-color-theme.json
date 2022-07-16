@@ -271,6 +271,26 @@
             "settings": {
                 "foreground": "#13d3d3"
             }
+        },
+        {
+            "name": "SCSS keyword",
+            "scope": [
+                "keyword.control.at-rule",
+                "punctuation.definition.keyword",
+                "punctuation.definition.interpolation"
+            ],
+            "settings": {
+                "foreground": "#369CFF"
+            }
+        },
+        {
+            "name": "CSS class and ID selector",
+            "scope": [
+                "punctuation.definition.entity.css"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
         }
     ]
 }

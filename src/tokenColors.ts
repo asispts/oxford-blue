@@ -3,6 +3,7 @@ import jsonToken from "./token/jsonToken";
 import makefileToken from "./token/makefileToken";
 import markupToken from "./token/markup";
 import phpToken from "./token/phpToken";
+import scssToken from "./token/scssToken";
 import TokenColor from "./token/TokenColor";
 
 export default function getTokenColor() {
@@ -13,6 +14,7 @@ export default function getTokenColor() {
   jsonToken(token);
   makefileToken(token);
   markupToken(token);
+  scssToken(token);
 
   return token.getData();
 }

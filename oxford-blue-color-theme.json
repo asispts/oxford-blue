@@ -172,7 +172,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#4C9EFF"
+                "foreground": "#369CFF"
             }
         },
         {
@@ -223,7 +223,7 @@
                 "punctuation.support.type.property-name"
             ],
             "settings": {
-                "foreground": "#4C9EFF"
+                "foreground": "#369CFF"
             }
         }
     ]

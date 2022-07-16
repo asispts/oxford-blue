@@ -37,7 +37,7 @@ const editorColorDef = {
 
 const syntaxColors = {
   blue: "#176bcf",
-  blueLight: "#4C9EFF",
+  blueLight: "#369CFF",
   yellow: "#efff73",
   yellowDark: "#d3e830",
   green: "#64de83",

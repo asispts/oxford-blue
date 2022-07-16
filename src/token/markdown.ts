@@ -1,4 +1,4 @@
-import tokenColorsDef from "../colors/tokenColorsDef";
+import { tokenColorsDef } from "../color";
 import tokenScope from "../utils/helper";
 
 export default function getMarkdownTokens(): Array<TokenColorType> {

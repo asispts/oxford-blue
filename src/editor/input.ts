@@ -1,4 +1,4 @@
-import editorColorDef from "../colors/editorColorDef";
+import { editorColorDef } from "../color";
 
 const input = {
   "input.background": editorColorDef.obDark,

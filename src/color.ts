@@ -11,6 +11,17 @@ const colors = {
   red: "#ff7a73",
 };
 
+const editorColorDef = {
+  ob: "#002147",
+  obDark: "#001a39",
+  obLight: "#002959",
+  steelBlueLight: "#91B6D4",
+  steelBlue: "#5A91BF",
+  steelBlueDark: "#396A93",
+  yellow: colors.yellow,
+  blue: colors.blue,
+};
+
 const tokenColorsDef = {
   default: colors.light,
   muted: colors.lightDark,
@@ -26,4 +37,4 @@ const tokenColorsDef = {
   modifier: colors.orange,
 };
 
-export default tokenColorsDef;
+export { editorColorDef, tokenColorsDef };

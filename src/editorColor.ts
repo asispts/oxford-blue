@@ -1,4 +1,4 @@
-import editorColorDef from "./colors/editorColorDef";
+import { editorColorDef } from "./color";
 import activityBar from "./editor/activityBar";
 import breadcrumb from "./editor/breadcrumb";
 import dropdown from "./editor/dropdown";

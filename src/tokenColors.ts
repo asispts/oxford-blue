@@ -1,4 +1,4 @@
-import tokenColorsDef from "./colors/tokenColorsDef";
+import { tokenColorsDef } from "./color";
 import getGenericScope from "./token/generic";
 import getJsonTokens from "./token/json";
 import getMakefileTokens from "./token/makefile";

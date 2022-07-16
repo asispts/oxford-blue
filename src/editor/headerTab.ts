@@ -1,4 +1,4 @@
-import editorColorDef from "../colors/editorColorDef";
+import { editorColorDef } from "../color";
 
 const headerTab = {
   "editorGroupHeader.tabsBackground": editorColorDef.obDark,

@@ -1,4 +1,4 @@
-import editorColorDef from "../colors/editorColorDef";
+import { editorColorDef } from "../color";
 
 const activityBar = {
   "activityBar.background": editorColorDef.obDark,

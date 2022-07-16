@@ -14,7 +14,7 @@ import statusBar from "./editor/statusBar";
 
 export default function getEditorColor() {
   return {
-    foreground: editorColorDef.steelBlueLight,
+    foreground: editorColorDef.fgColor,
     ...activityBar,
     ...breadcrumb,
     ...dropdown,

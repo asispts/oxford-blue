@@ -1,8 +1,7 @@
 import { editorColorDef } from "../color";
 
 const breadcrumb = {
-  "breadcrumb.background": editorColorDef.obLight,
-  "breadcrumb.foreground": editorColorDef.steelBlueLight,
+  "breadcrumb.background": editorColorDef.bgDark,
 };
 
 export default breadcrumb;

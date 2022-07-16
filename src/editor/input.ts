@@ -1,8 +1,8 @@
 import { editorColorDef } from "../color";
 
 const input = {
-  "input.background": editorColorDef.obDark,
-  "input.border": editorColorDef.blue,
+  "input.background": editorColorDef.bgDark,
+  "input.border": editorColorDef.primary,
 };
 
 export default input;

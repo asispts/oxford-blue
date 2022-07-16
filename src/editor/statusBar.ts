@@ -1,9 +1,9 @@
 import { editorColorDef } from "../color";
 
 const statusBar = {
-  "statusBar.background": editorColorDef.yellow,
-  "statusBar.foreground": editorColorDef.obDark,
-  "statusBarItem.hoverBackground": "#bdcf44",
+  "statusBar.background": editorColorDef.accent,
+  "statusBar.foreground": editorColorDef.accentFg,
+  "statusBarItem.hoverBackground": editorColorDef.accentHover,
 };
 
 export default statusBar;

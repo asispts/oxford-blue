@@ -11,15 +11,41 @@ const colors = {
   red: "#ff7a73",
 };
 
+const oxfordBlue = {
+  default: "#002147",
+  dark: "#001a39",
+  light: "#002959",
+};
+
+const steelBlue = {
+  default: "#5A91BF",
+  dark: "#396A93",
+  light: "#91B6D4",
+};
+
 const editorColorDef = {
-  ob: "#002147",
-  obDark: "#001a39",
-  obLight: "#002959",
-  steelBlueLight: "#91B6D4",
-  steelBlue: "#5A91BF",
-  steelBlueDark: "#396A93",
-  yellow: colors.yellow,
-  blue: colors.blue,
+  // Editor colors
+  editorBg: oxfordBlue.dark,
+  editorFg: steelBlue.default,
+
+  // Background colors
+  bgColor: oxfordBlue.default,
+  bgDark: oxfordBlue.dark,
+  bgLight: oxfordBlue.light,
+
+  // Foreground colors
+  fgColor: steelBlue.default,
+  fgDark: steelBlue.dark,
+  fgLight: steelBlue.light,
+
+  // Primary colors
+  primary: "#0069e6",
+  primaryFg: "#e1e4f8",
+
+  // Accent colors
+  accent: "#efff73",
+  accentFg: "#4B4E29",
+  accentHover: "#bdcf44",
 };
 
 const tokenColorsDef = {

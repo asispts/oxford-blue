@@ -1,11 +1,13 @@
+import { editorColorDef } from "../color";
+
 const editorSuggestWidget = {
-  "editorSuggestWidget.background": "#002147",
-  "editorSuggestWidget.foreground": "#5483a3",
-  "editorSuggestWidget.border": "#007FD4",
-  "editorSuggestWidget.selectedBackground": "#094771",
-  "editorSuggestWidget.selectedForeground": "#9bc4e2",
-  "editorSuggestWidget.focusHighlightForeground": "#efff73",
-  "editorSuggestWidget.highlightForeground": "#efff73",
+  "editorSuggestWidget.background": editorColorDef.bgColor,
+  "editorSuggestWidget.border": editorColorDef.primary,
+
+  "editorSuggestWidget.selectedBackground": `${editorColorDef.primary}40`,
+
+  "editorSuggestWidget.focusHighlightForeground": editorColorDef.accent,
+  "editorSuggestWidget.highlightForeground": editorColorDef.accent,
 };
 
 export default editorSuggestWidget;

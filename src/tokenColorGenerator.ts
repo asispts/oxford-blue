@@ -7,7 +7,7 @@ import scssToken from "./token/scssToken";
 import typescriptToken from "./token/typescript";
 import TokenColor from "./TokenColor";
 
-export default function getTokenColor() {
+export default function tokenColorGenerator() {
   const token = new TokenColor();
 
   setGenericToken(token);

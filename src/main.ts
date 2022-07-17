@@ -1,14 +1,14 @@
 import fs from "node:fs/promises";
-import getEditorColor from "./editorColor";
-import getTokenColor from "./tokenColors";
+import editorColorGenerator from "./editorColorGenerator";
+import tokenColorGenerator from "./tokenColorGenerator";
 
 (async function () {
   const theme = {
     name: "oxford-blue",
     type: "dark",
     semanticHighlighting: true,
-    colors: getEditorColor(),
-    tokenColors: getTokenColor(),
+    colors: editorColorGenerator(),
+    tokenColors: tokenColorGenerator(),
   };
 
   try {

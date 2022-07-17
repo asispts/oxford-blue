@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import editorColorGenerator from "./editorColorGenerator";
+import semanticGenerator from "./semanticGenerator";
 import tokenColorGenerator from "./tokenColorGenerator";
 
 (async function () {
@@ -9,6 +10,7 @@ import tokenColorGenerator from "./tokenColorGenerator";
     semanticHighlighting: true,
     colors: editorColorGenerator(),
     tokenColors: tokenColorGenerator(),
+    semanticTokenColors: semanticGenerator(),
   };
 
   try {

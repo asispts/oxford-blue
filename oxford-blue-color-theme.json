@@ -301,5 +301,14 @@
                 "foreground": "#ff7a73"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "function": "#9BC4E2",
+        "method": "#9BC4E2",
+        "interface": "#369CFF",
+        "type": "#369CFF",
+        "*.declaration": "#72ABD6",
+        "property.declaration": "#efff73",
+        "*.defaultLibrary": "#ff73ef"
+    }
 }

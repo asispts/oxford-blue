@@ -1,5 +1,5 @@
 import { tokenColorsDef } from "../color";
-import TokenColor from "./TokenColor";
+import TokenColor from "../TokenColor";
 
 export default function setGenericToken(token: TokenColor) {
   token.set("Default text", ["variable.other.property"], {

@@ -1,5 +1,5 @@
 import { syntaxColors } from "../color";
-import TokenColor from "./TokenColor";
+import TokenColor from "../TokenColor";
 
 export default function scssToken(token: TokenColor) {
   token.set(

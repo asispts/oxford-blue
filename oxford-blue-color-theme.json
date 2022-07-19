@@ -123,7 +123,7 @@
                 "keyword.operator"
             ],
             "settings": {
-                "foreground": "#ff7a73"
+                "foreground": "#ffa65e"
             }
         },
         {
@@ -134,7 +134,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#176bcf"
+                "foreground": "#369CFF"
             }
         },
         {
@@ -172,7 +172,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#369CFF"
+                "foreground": "#ff7a73"
             }
         },
         {
@@ -191,7 +191,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#ff7a73"
+                "foreground": "#ffa65e"
             }
         },
         {
@@ -305,8 +305,8 @@
     "semanticTokenColors": {
         "function": "#9BC4E2",
         "method": "#9BC4E2",
-        "interface": "#369CFF",
-        "type": "#369CFF",
+        "interface": "#ff7a73",
+        "type": "#ff7a73",
         "*.declaration": "#72ABD6",
         "property.declaration": "#efff73",
         "*.defaultLibrary": "#ff73ef"

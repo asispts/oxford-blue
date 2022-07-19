@@ -24,12 +24,6 @@ export default function getSemanticToken(): SemanticToken {
 
   // Builtin variables, functions, etc
   semantic.set(SemanticModifier.DefaultLibrary, tokenColorsDef.builtin);
-  // Except for method call
-  // semantic.set(
-  //   SemanticModifier.DefaultLibrary,
-  //   tokenColorsDef.default,
-  //   SemanticTokenType.Method
-  // );
 
   return semantic;
 }

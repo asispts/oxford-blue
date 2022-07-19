@@ -36,7 +36,6 @@ const editorColorDef = {
 };
 
 const syntaxColors = {
-  blue: "#176bcf",
   blueLight: "#369CFF",
   yellow: "#efff73",
   yellowDark: "#d3e830",
@@ -44,9 +43,10 @@ const syntaxColors = {
   purple: "#8373ff",
   cyan: "#13d3d3",
   orange: "#ffa65e",
-  salmon: "#ff7a73",
   magenta: "#ff73ef",
-  red: "#E6427C",
+  salmon: "#ff7a73",
+  red: "#E6427C", // used in markup only
+  blue: "#176bcf", // unused
 };
 
 const tokenColorsDef = {
@@ -55,13 +55,13 @@ const tokenColorsDef = {
   comment: paleCerulean.dark,
   string: syntaxColors.green,
   constant: syntaxColors.purple,
-  keyword: syntaxColors.blue,
-  keywordOperator: syntaxColors.salmon,
-  storage: syntaxColors.cyan,
+  keyword: syntaxColors.blueLight,
   dataType: syntaxColors.orange,
+  keywordOperator: syntaxColors.orange,
+  storage: syntaxColors.cyan,
   variable: syntaxColors.yellow,
   builtin: syntaxColors.magenta,
-  supportClass: syntaxColors.blueLight,
+  supportClass: syntaxColors.salmon,
   functionCalls: paleCerulean.light,
 };
 

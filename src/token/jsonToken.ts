@@ -9,7 +9,7 @@ export default function jsonToken(token: TokenColor) {
       "punctuation.support.type.property-name", // json object key quotation
     ],
     {
-      foreground: syntaxColors.blueLight,
+      foreground: syntaxColors.salmon,
     }
   );
 }

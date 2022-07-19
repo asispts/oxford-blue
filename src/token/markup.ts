@@ -9,7 +9,7 @@ export default function markupToken(token: TokenColor) {
       "punctuation.definition.tag", // markup <> characters
     ],
     {
-      foreground: syntaxColors.red,
+      foreground: syntaxColors.salmon,
     }
   );
 

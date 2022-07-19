@@ -45,7 +45,7 @@ const syntaxColors = {
   orange: "#ffa65e",
   magenta: "#ff73ef",
   salmon: "#ff7a73",
-  red: "#E6427C", // used in markup only
+  red: "#E6427C", // unused
   blue: "#176bcf", // unused
 };
 

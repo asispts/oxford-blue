@@ -6,23 +6,9 @@ export default function setGenericToken(token: TokenColor) {
     foreground: tokenColorsDef.default,
   });
 
-  token.set(
-    "Muted text",
-    [
-      "punctuation",
-      "support.other.namespace",
-
-      // eq: namespace separator in PHP
-      "punctuation.separator.inheritance",
-
-      // eq: namespace definition in PHP
-      // namespace App;
-      "entity.name.type.namespace",
-    ],
-    {
-      foreground: tokenColorsDef.muted,
-    }
-  );
+  token.set("Muted text", ["punctuation"], {
+    foreground: tokenColorsDef.muted,
+  });
 
   token.set("Comment", ["comment", "punctuation.definition.comment"], {
     foreground: tokenColorsDef.comment,
@@ -60,6 +46,7 @@ export default function setGenericToken(token: TokenColor) {
 
   token.set("Keyword Operators", ["keyword.operator"], {
     foreground: tokenColorsDef.keywordOperator,
+    fontStyle: "normal",
   });
 
   token.set(
@@ -71,11 +58,13 @@ export default function setGenericToken(token: TokenColor) {
     ],
     {
       foreground: tokenColorsDef.keyword,
+      fontStyle: "italic",
     }
   );
 
   token.set("Storage", ["storage.type"], {
     foreground: tokenColorsDef.storage,
+    fontStyle: "italic",
   });
 
   token.set(
@@ -86,6 +75,7 @@ export default function setGenericToken(token: TokenColor) {
     ],
     {
       foreground: tokenColorsDef.dataType,
+      fontStyle: "normal",
     }
   );
 
@@ -104,4 +94,23 @@ export default function setGenericToken(token: TokenColor) {
   token.set("Function call", ["meta.function-call", "meta.method-call"], {
     foreground: tokenColorsDef.functionCalls,
   });
+
+  token.set(
+    "Namespace path",
+    [
+      // eq: namespace declaration in PHP
+      // namespace App;
+      "entity.name.type.namespace",
+
+      // Import namespace
+      "support.other.namespace",
+
+      // eq: namespace separator in PHP
+      "punctuation.separator.inheritance",
+    ],
+    {
+      foreground: tokenColorsDef.muted,
+      fontStyle: "italic",
+    }
+  );
 }

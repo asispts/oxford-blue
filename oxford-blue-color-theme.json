@@ -64,10 +64,7 @@
         {
             "name": "Muted text",
             "scope": [
-                "punctuation",
-                "support.other.namespace",
-                "punctuation.separator.inheritance",
-                "entity.name.type.namespace"
+                "punctuation"
             ],
             "settings": {
                 "foreground": "#2D658D"
@@ -123,7 +120,8 @@
                 "keyword.operator"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ffa65e",
+                "fontStyle": "normal"
             }
         },
         {
@@ -134,7 +132,8 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#176bcf"
+                "foreground": "#176bcf",
+                "fontStyle": "italic"
             }
         },
         {
@@ -143,7 +142,8 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#176bcf"
+                "foreground": "#176bcf",
+                "fontStyle": "italic"
             }
         },
         {
@@ -153,7 +153,8 @@
                 "support.type.primitive"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ffa65e",
+                "fontStyle": "normal"
             }
         },
         {
@@ -183,6 +184,18 @@
             ],
             "settings": {
                 "foreground": "#9BC4E2"
+            }
+        },
+        {
+            "name": "Namespace path",
+            "scope": [
+                "entity.name.type.namespace",
+                "support.other.namespace",
+                "punctuation.separator.inheritance"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "italic"
             }
         },
         {

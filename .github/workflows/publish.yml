@@ -9,9 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Exit if not on master branch
+        if: endsWith(github.ref, 'master') == false
+        run: exit -1
+
       - uses: actions/setup-node@v1
         with:
           node-version: 16
+
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
         with:
@@ -21,9 +27,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Exit if not on master branch
+        if: endsWith(github.ref, 'master') == false
+        run: exit -1
+
       - uses: actions/setup-node@v1
         with:
           node-version: 16
+
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:

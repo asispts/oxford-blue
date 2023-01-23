@@ -3,6 +3,7 @@ on: push
 name: Deploy Extension
 jobs:
   deploy-vsx:
+    if: ${{ github.ref == 'refs/heads/debug' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo '${{ toJSON(github.ref) }}'

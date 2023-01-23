@@ -132,7 +132,7 @@
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#176bcf",
+                "foreground": "#369CFF",
                 "fontStyle": "italic"
             }
         },
@@ -142,7 +142,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#176bcf",
+                "foreground": "#369CFF",
                 "fontStyle": "italic"
             }
         },
@@ -314,14 +314,5 @@
                 "foreground": "#ff7a73"
             }
         }
-    ],
-    "semanticTokenColors": {
-        "function": "#9BC4E2",
-        "method": "#9BC4E2",
-        "interface": "#ff7a73",
-        "type": "#ff7a73",
-        "*.declaration": "#72ABD6",
-        "property.declaration": "#efff73",
-        "*.defaultLibrary": "#ff73ef"
-    }
+    ]
 }

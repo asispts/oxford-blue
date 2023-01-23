@@ -8,15 +8,15 @@ jobs:
   deploy-vsx:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Exit if not on master branch
         if: endsWith(github.ref, 'master') == false
         run: exit -1
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
@@ -26,15 +26,15 @@ jobs:
   deploy-vs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Exit if not on master branch
         if: endsWith(github.ref, 'master') == false
         run: exit -1
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1

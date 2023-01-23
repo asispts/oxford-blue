@@ -12,7 +12,7 @@ import setPanelColor from "./editor/panel";
 import setSidebarColor from "./editor/sideBar";
 import setStatusBar from "./editor/statusBar";
 
-export default function getEditorColor(): Object {
+export default function editorColorGenerator(): Object {
   const data: EditorColorMap = new Map([
     ["foreground", editorColorDef.fgColor],
   ]);

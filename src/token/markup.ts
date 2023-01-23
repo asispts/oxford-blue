@@ -1,31 +1,23 @@
-import { tokenColorsDef } from "../color";
-import tokenScope from "../utils/helper";
+import { syntaxColors } from "../color";
+import TokenColor from "../TokenColor";
 
-export default function getMarkupTokens() {
-  const tokens: Array<TokenColorType> = [];
-
-  tokenScope(
-    tokens,
-    "Markup tag",
+export default function markupToken(token: TokenColor) {
+  token.set(
+    "String",
     [
-      "entity.name.tag", // markup tag name
+      "entity.name.tag",
       "punctuation.definition.tag", // markup <> characters
     ],
     {
-      foreground: tokenColorsDef.keyword,
+      foreground: syntaxColors.salmon,
     }
   );
 
-  tokenScope(
-    tokens,
-    "Markup attribute name",
-    [
-      "entity.other.attribute-name", // markup attribute name
-    ],
-    {
-      foreground: tokenColorsDef.variable,
-    }
-  );
+  token.set("Markup attribute name", ["entity.other.attribute-name"], {
+    foreground: syntaxColors.orange,
+  });
 
-  return tokens;
+  token.set("JSX component", ["support.class.component"], {
+    foreground: syntaxColors.cyan,
+  });
 }

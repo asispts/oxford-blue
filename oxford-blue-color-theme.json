@@ -3,7 +3,7 @@
     "type": "dark",
     "semanticHighlighting": true,
     "colors": {
-        "foreground": "#5A91BF",
+        "foreground": "#72ABD6",
         "activityBar.background": "#001a39",
         "activityBar.foreground": "#efff73",
         "activityBar.inactiveForeground": "#0069e6",
@@ -12,7 +12,7 @@
         "breadcrumb.background": "#001a39",
         "dropdown.background": "#002959",
         "editor.background": "#001a39",
-        "editor.foreground": "#5A91BF",
+        "editor.foreground": "#72ABD6",
         "editorCursor.foreground": "#efff73",
         "editorLineNumber.foreground": "#0069e6",
         "editorLineNumber.activeForeground": "#efff73",
@@ -32,7 +32,7 @@
         "tab.activeForeground": "#e1e4f8",
         "tab.activeModifiedBorder": "#efff73",
         "tab.inactiveBackground": "#001a39",
-        "tab.inactiveForeground": "#396A93",
+        "tab.inactiveForeground": "#2D658D",
         "tab.inactiveModifiedBorder": "#efff73",
         "tab.hoverBackground": "#0069e640",
         "tab.hoverForeground": "#e1e4f8",
@@ -44,34 +44,30 @@
         "list.activeSelectionBackground": "#002959",
         "panel.border": "#efff73",
         "sideBar.background": "#002147",
-        "sideBarTitle.foreground": "#396A93",
+        "sideBarTitle.foreground": "#2D658D",
         "sideBarSectionHeader.background": "#001a39",
-        "sideBarSectionHeader.foreground": "#396A93",
+        "sideBarSectionHeader.foreground": "#2D658D",
         "statusBar.background": "#efff73",
         "statusBar.foreground": "#4B4E29",
         "statusBarItem.hoverBackground": "#bdcf44"
     },
     "tokenColors": [
         {
-            "name": "Default color",
+            "name": "Default text",
             "scope": [
-                "variable.other.property",
-                "meta.method-call"
+                "variable.other.property"
             ],
             "settings": {
-                "foreground": "#9bc4e2"
+                "foreground": "#72ABD6"
             }
         },
         {
             "name": "Muted text",
             "scope": [
-                "punctuation",
-                "support.other.namespace",
-                "punctuation.separator.inheritance",
-                "entity.name.type.namespace"
+                "punctuation"
             ],
             "settings": {
-                "foreground": "#5a829e"
+                "foreground": "#2D658D"
             }
         },
         {
@@ -81,18 +77,8 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#176bcf",
+                "foreground": "#2D658D",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Comment Keyword",
-            "scope": [
-                "keyword.other.phpdoc"
-            ],
-            "settings": {
-                "foreground": "#176bcf",
-                "fontStyle": "italic bold"
             }
         },
         {
@@ -106,10 +92,19 @@
             }
         },
         {
+            "name": "Variable",
+            "scope": [
+                "variable",
+                "punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#efff73"
+            }
+        },
+        {
             "name": "Constant",
             "scope": [
                 "constant",
-                "punctuation.section.embedded",
                 "keyword.other.unit",
                 "punctuation.definition.constant",
                 "support.constant",
@@ -120,46 +115,50 @@
             }
         },
         {
-            "name": "Keywords",
+            "name": "Keyword Operators",
             "scope": [
-                "keyword",
-                "keyword.operator.new"
+                "keyword.operator"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ffa65e",
+                "fontStyle": "normal"
             }
         },
         {
-            "name": "Modifiers",
+            "name": "Keyword",
             "scope": [
+                "keyword",
+                "keyword.operator.new",
                 "storage.modifier"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#369CFF",
+                "fontStyle": "italic"
             }
         },
         {
-            "name": "Data types",
+            "name": "Storage",
             "scope": [
-                "storage.type",
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#369CFF",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Data type",
+            "scope": [
+                "keyword.other.type",
                 "support.type.primitive"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ffa65e",
+                "fontStyle": "normal"
             }
         },
         {
-            "name": "Variables",
-            "scope": [
-                "variable",
-                "punctuation.definition.variable"
-            ],
-            "settings": {
-                "foreground": "#efff73"
-            }
-        },
-        {
-            "name": "Built-in functions and classes",
+            "name": "Builtin classes and functions",
             "scope": [
                 "support.function",
                 "support.class.builtin"
@@ -169,110 +168,65 @@
             }
         },
         {
-            "name": "Functions call",
+            "name": "Support class",
             "scope": [
-                "meta.function-call"
+                "support.class"
             ],
             "settings": {
                 "foreground": "#ff7a73"
             }
         },
         {
-            "name": "Support classes",
+            "name": "Function call",
             "scope": [
-                "support.class"
+                "meta.function-call",
+                "meta.method-call"
             ],
             "settings": {
-                "foreground": "#0ae0ee"
+                "foreground": "#9BC4E2"
             }
         },
         {
-            "name": "PHP8 attributes",
+            "name": "Namespace path",
+            "scope": [
+                "entity.name.type.namespace",
+                "support.other.namespace",
+                "punctuation.separator.inheritance"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "<?php and ?> symbols",
+            "scope": [
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "PHPDoc keywords",
+            "scope": [
+                "keyword.other.phpdoc"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "PHP8 Attributes",
             "scope": [
                 "support.attribute.php",
                 "meta.attribute.php",
                 "entity.name.variable.parameter"
             ],
             "settings": {
-                "foreground": "#5a829e",
+                "foreground": "#2D658D",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Default markdown text",
-            "scope": [
-                "text.html.markdown"
-            ],
-            "settings": {
-                "foreground": "#9bc4e2"
-            }
-        },
-        {
-            "name": "Markdown quotation",
-            "scope": [
-                "markup.quote.markdown"
-            ],
-            "settings": {
-                "foreground": "#5a829e"
-            }
-        },
-        {
-            "name": "Markdown headings",
-            "scope": [
-                "markup.heading.markdown",
-                "punctuation.definition.heading.markdown"
-            ],
-            "settings": {
-                "foreground": "#ffa65e",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Markdown italic",
-            "scope": [
-                "markup.italic.markdown"
-            ],
-            "settings": {
-                "foreground": "#9bc4e2",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Markdown bold",
-            "scope": [
-                "markup.bold.markdown"
-            ],
-            "settings": {
-                "foreground": "#9bc4e2",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "Markdown inline code",
-            "scope": [
-                "markup.inline.raw",
-                "punctuation.definition.raw"
-            ],
-            "settings": {
-                "foreground": "#efff73"
-            }
-        },
-        {
-            "name": "Markdown block code",
-            "scope": [
-                "fenced_code.block.language"
-            ],
-            "settings": {
-                "foreground": "#5a829e"
-            }
-        },
-        {
-            "name": "Markdown link",
-            "scope": [
-                "markup.underline.link"
-            ],
-            "settings": {
-                "foreground": "#0ae0ee"
             }
         },
         {
@@ -282,17 +236,35 @@
                 "punctuation.support.type.property-name"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ff7a73"
             }
         },
         {
-            "name": "Markup tag",
+            "name": "Makefile target",
+            "scope": [
+                "entity.name.function.target"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
+            }
+        },
+        {
+            "name": "Makefile target",
+            "scope": [
+                "meta.scope.prerequisites"
+            ],
+            "settings": {
+                "foreground": "#64de83"
+            }
+        },
+        {
+            "name": "String",
             "scope": [
                 "entity.name.tag",
                 "punctuation.definition.tag"
             ],
             "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#ff7a73"
             }
         },
         {
@@ -301,7 +273,16 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#efff73"
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "JSX component",
+            "scope": [
+                "support.class.component"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
             }
         },
         {
@@ -312,35 +293,25 @@
                 "punctuation.definition.interpolation"
             ],
             "settings": {
-                "foreground": "#ffa65e"
-            }
-        },
-        {
-            "name": "CSS tag selector",
-            "scope": [
-                "entity.name.tag.css"
-            ],
-            "settings": {
-                "foreground": "#ffa65e"
+                "foreground": "#369CFF"
             }
         },
         {
             "name": "CSS class and ID selector",
             "scope": [
-                "entity.other.attribute-name.class.css",
-                "entity.other.attribute-name.id.css"
-            ],
-            "settings": {
-                "foreground": "#efff73"
-            }
-        },
-        {
-            "name": "Makefile target",
-            "scope": [
-                "entity.name.function.target"
+                "punctuation.definition.entity.css"
             ],
             "settings": {
                 "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "String template expression",
+            "scope": [
+                "punctuation.definition.template-expression"
+            ],
+            "settings": {
+                "foreground": "#ff7a73"
             }
         }
     ]

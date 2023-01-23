@@ -6,13 +6,10 @@ on:
 name: Deploy Extension
 jobs:
   deploy-vsx:
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Exit if not on master branch
-        if: endsWith(github.ref, 'master') == false
-        run: exit -1
 
       - uses: actions/setup-node@v3
         with:
@@ -24,13 +21,10 @@ jobs:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
 
   deploy-vs:
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Exit if not on master branch
-        if: endsWith(github.ref, 'master') == false
-        run: exit -1
 
       - uses: actions/setup-node@v3
         with:

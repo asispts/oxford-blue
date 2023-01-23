@@ -14,4 +14,4 @@ jobs:
   deploy-marketplace:
     runs-on: ubuntu-latest
     steps:
-      - run: echo '${{ toJSON(github.ref) }}'
+      - run: echo '${{ toJSON(github) }}'

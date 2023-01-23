@@ -3,8 +3,10 @@ All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
 
+## [0.6] - 2023-01-24
+Introduce a brand new colors and schema. Prepare to support semantic colors.
 
-## [0.5.0]
+## [0.5] - 2022-06-09
   ### Added
   - Add package icon
 
@@ -66,7 +68,8 @@ All notable changes to this theme will be documented in this file.
 - Initial release
 
 
-[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.5...master
+[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.6...master
+[0.6]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.6
 [0.5]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.5
 [0.4]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.4
 [0.3.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.3.1

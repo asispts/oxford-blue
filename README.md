@@ -10,7 +10,7 @@
 
 
 > `oxford-blue` is created mainly with `PHP` and frontend languages in mind.
-> Feel free to send a feedback when it looks ugly in your preferred languages.
+> Feel free to send feedback when it looks ugly in your preferred languages.
 
 ## Installation
 Launch VS Code Quick Open (`Ctrl+P`), paste the following command, and press enter.
@@ -22,42 +22,25 @@ ext install asispts.oxford-blue
 https://vscode.dev/theme/asispts.oxford-blue/oxford-blue
 
 
+## Programming Languages
+Most programming languages are partially supported by this theme.
+A number of programming languages are currently fully supported and will be in the future, including:
+  - [x] PHP
+  - [x] JavaScript / TypeScript
+  - [x] Python
+  - [ ] V
+
+Others:
+  - [x] HTML/XHTML
+  - [x] XML
+  - [x] Twig
+  - [x] JSX
+  - [x] Markdown
+  - [x] makefile
+  - [x] CSS/SCSS/LESS
+  - [x] JSON
+  - [x] Yaml
+  - [x] Neon
+
 ## Screenshots
-![preview](preview/preview.png)
-
-
-## Supported Programming Languages
-All programming languages are partially supported by this theme.
-However, there are several languages that are and will be fully supported in the future.
-
-### Programming languages
-- [x] PHP
-- [x] TypeScript / JavaScript
-
-Will be fully supported in the future
-- [ ] Python
-- [ ] Golang
-- [ ] Rust
-- [ ] V
-- [ ] C/C++
-
-### Markup languages
-- [x] HTML/XHTML
-- [x] XML
-- [x] Twig
-- [x] JavaScript XML (JSX)
-- [x] Svelte
-- [x] Marko
-
-### Style sheets
-- [x] CSS
-- [x] SCSS
-- [x] LESS
-
-### Others
-- [x] Makefile
-- [x] Yaml
-- [x] Neon
-- [x] JSON
-- [x] Markdown
-- [x] Bash script
+![preview](preview/php.png)

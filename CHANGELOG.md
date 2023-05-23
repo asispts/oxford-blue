@@ -2,9 +2,13 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
+  ### Changed
+  - `normal` font-style is not supported. Replace it with an empty string.
+
 
 ## [0.6] - 2023-01-24
 Introduce a brand new colors and schema. Prepare to support semantic colors.
+
 
 ## [0.5] - 2022-06-09
   ### Added
@@ -14,6 +18,7 @@ Introduce a brand new colors and schema. Prepare to support semantic colors.
   - Separate deploy tasks between vscode and vsx marketplaces
   - Change color of `punctuation.definition.entity` (e.q: `&copy;`)
   - Better color theme for PHP 8 attributes
+
 
 ## [0.4] - 2022-05-17
   ### Added

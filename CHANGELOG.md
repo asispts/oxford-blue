@@ -68,13 +68,13 @@ Introduce a brand new colors and schema. Prepare to support semantic colors.
 - Initial release
 
 
-[Unreleased]: https://github.com/pattisahusiwa/oxford-blue/compare/v0.6...master
-[0.6]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.6
-[0.5]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.5
-[0.4]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.4
-[0.3.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.3.1
-[0.3]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.3
-[0.2.2]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.2.2
-[0.2.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.2.1
-[0.2]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.2
-[0.1]: https://github.com/pattisahusiwa/oxford-blue/releases/tag/v0.1
+[Unreleased]: https://github.com/asispts/oxford-blue/compare/v0.6...master
+[0.6]: https://github.com/asispts/oxford-blue/releases/tag/v0.6
+[0.5]: https://github.com/asispts/oxford-blue/releases/tag/v0.5
+[0.4]: https://github.com/asispts/oxford-blue/releases/tag/v0.4
+[0.3.1]: https://github.com/asispts/oxford-blue/releases/tag/v0.3.1
+[0.3]: https://github.com/asispts/oxford-blue/releases/tag/v0.3
+[0.2.2]: https://github.com/asispts/oxford-blue/releases/tag/v0.2.2
+[0.2.1]: https://github.com/asispts/oxford-blue/releases/tag/v0.2.1
+[0.2]: https://github.com/asispts/oxford-blue/releases/tag/v0.2
+[0.1]: https://github.com/asispts/oxford-blue/releases/tag/v0.1

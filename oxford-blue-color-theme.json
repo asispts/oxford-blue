@@ -121,7 +121,7 @@
             ],
             "settings": {
                 "foreground": "#ffa65e",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
@@ -154,7 +154,7 @@
             ],
             "settings": {
                 "foreground": "#ffa65e",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {

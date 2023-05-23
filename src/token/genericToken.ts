@@ -46,7 +46,7 @@ export default function setGenericToken(token: TokenColor) {
 
   token.set("Keyword Operators", ["keyword.operator"], {
     foreground: tokenColorsDef.keywordOperator,
-    fontStyle: "normal",
+    fontStyle: "",
   });
 
   token.set(
@@ -75,7 +75,7 @@ export default function setGenericToken(token: TokenColor) {
     ],
     {
       foreground: tokenColorsDef.dataType,
-      fontStyle: "normal",
+      fontStyle: "",
     }
   );
 

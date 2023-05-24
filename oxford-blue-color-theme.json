@@ -51,7 +51,9 @@
         "statusBar.foreground": "#4B4E29",
         "statusBarItem.hoverBackground": "#bdcf44",
         "statusBar.debuggingBackground": "#E6427C",
-        "statusBar.debuggingForeground": "#001a39"
+        "statusBar.debuggingForeground": "#001a39",
+        "statusBar.noFolderBackground": "#0069e6",
+        "statusBar.noFolderForeground": "#e1e4f8"
     },
     "tokenColors": [
         {

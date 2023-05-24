@@ -10,6 +10,20 @@ const paleCerulean = {
   light: "#9BC4E2",
 };
 
+const syntaxColors = {
+  blue: "#176bcf",
+  yellow: "#efff73",
+  yellowDark: "#d3e830",
+  green: "#64de83",
+  purple: "#8373ff",
+  orange: "#ffa65e",
+  magenta: "#ff73ef",
+  salmon: "#ff7a73",
+  blueLight: "#369CFF", // unused
+  cyan: "#13d3d3", // unused
+  red: "#E6427C", // unused
+};
+
 const editorColorDef = {
   // Editor colors
   editorBg: oxfordBlue.dark,
@@ -29,24 +43,14 @@ const editorColorDef = {
   primary: "#0069e6",
   primaryFg: "#e1e4f8",
 
+  // Primary colors
+  secondary: syntaxColors.red,
+  secondaryFg: oxfordBlue.dark,
+
   // Accent colors
-  accent: "#efff73",
+  accent: syntaxColors.yellow,
   accentFg: "#4B4E29",
   accentHover: "#bdcf44",
-};
-
-const syntaxColors = {
-  blue: "#176bcf",
-  yellow: "#efff73",
-  yellowDark: "#d3e830",
-  green: "#64de83",
-  purple: "#8373ff",
-  orange: "#ffa65e",
-  magenta: "#ff73ef",
-  salmon: "#ff7a73",
-  blueLight: "#369CFF", // unused
-  cyan: "#13d3d3", // unused
-  red: "#E6427C", // unused
 };
 
 const tokenColorsDef = {

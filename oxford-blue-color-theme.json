@@ -49,7 +49,9 @@
         "sideBarSectionHeader.foreground": "#2D658D",
         "statusBar.background": "#efff73",
         "statusBar.foreground": "#4B4E29",
-        "statusBarItem.hoverBackground": "#bdcf44"
+        "statusBarItem.hoverBackground": "#bdcf44",
+        "statusBar.debuggingBackground": "#E6427C",
+        "statusBar.debuggingForeground": "#001a39"
     },
     "tokenColors": [
         {

@@ -6,4 +6,6 @@ export default function setStatusBar(data: EditorColorMap) {
   data.set("statusBarItem.hoverBackground", editorColorDef.accentHover);
   data.set("statusBar.debuggingBackground", editorColorDef.secondary);
   data.set("statusBar.debuggingForeground", editorColorDef.secondaryFg);
+  data.set("statusBar.noFolderBackground", editorColorDef.primary);
+  data.set("statusBar.noFolderForeground", editorColorDef.primaryFg);
 }

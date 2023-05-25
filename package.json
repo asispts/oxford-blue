@@ -40,10 +40,12 @@
         ]
     },
     "scripts": {
+        "build": "ts-node src/main.ts",
         "dev": "ts-node-dev --respawn --files src/main.ts"
     },
     "devDependencies": {
         "@types/node": "^20.2.3",
+        "ts-node": "^10.9.1",
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.0.4"
     }

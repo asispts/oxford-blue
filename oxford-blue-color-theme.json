@@ -317,6 +317,96 @@
             "settings": {
                 "foreground": "#ff7a73"
             }
+        },
+        {
+            "name": "Markdown headings",
+            "scope": [
+                "markup.heading.markdown",
+                "punctuation.definition.heading.markdown"
+            ],
+            "settings": {
+                "foreground": "#9BC4E2",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown code block",
+            "scope": [
+                "punctuation.definition.markdown",
+                "fenced_code.block.language"
+            ],
+            "settings": {
+                "foreground": "#2D658D"
+            }
+        },
+        {
+            "name": "Markdown block code",
+            "scope": [
+                "markup.fenced_code.block.markdown"
+            ],
+            "settings": {
+                "foreground": "#176bcf"
+            }
+        },
+        {
+            "name": "Markdown inline code",
+            "scope": [
+                "markup.inline.raw.string.markdown",
+                "punctuation.definition.raw.markdown"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "Markdown link",
+            "scope": [
+                "markup.underline.link"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
+            }
+        },
+        {
+            "name": "Markdown quotation",
+            "scope": [
+                "markup.quote.markdown"
+            ],
+            "settings": {
+                "foreground": "#2D658D"
+            }
+        },
+        {
+            "name": "Markdown bold text",
+            "scope": [
+                "markup.bold.markdown",
+                "punctuation.definition.bold.markdown"
+            ],
+            "settings": {
+                "foreground": "#9BC4E2",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown italic text",
+            "scope": [
+                "markup.italic.markdown",
+                "punctuation.definition.italic.markdown"
+            ],
+            "settings": {
+                "foreground": "#9BC4E2",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown strikethrough text",
+            "scope": [
+                "markup.strikethrough.markdown",
+                "punctuation.definition.strikethrough.markdown"
+            ],
+            "settings": {
+                "foreground": "#9BC4E2"
+            }
         }
     ]
 }

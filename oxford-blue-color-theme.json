@@ -319,6 +319,17 @@
             }
         },
         {
+            "name": "jsdoc keyword",
+            "scope": [
+                "punctuation.definition.block.tag.jsdoc",
+                "storage.type.class.jsdoc"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
             "name": "Markdown headings",
             "scope": [
                 "markup.heading.markdown",

@@ -1,4 +1,4 @@
-import { syntaxColors } from "../color";
+import { syntaxColors, tokenColorsDef } from "../color";
 import TokenColor from "../TokenColor";
 
 export default function typescriptToken(token: TokenColor) {
@@ -9,4 +9,9 @@ export default function typescriptToken(token: TokenColor) {
       foreground: syntaxColors.salmon,
     }
   );
+
+  token.set('jsdoc keyword', ['punctuation.definition.block.tag.jsdoc', 'storage.type.class.jsdoc'], {
+    foreground: tokenColorsDef.comment,
+    fontStyle: 'bold italic'
+  })
 }

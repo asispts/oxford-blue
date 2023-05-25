@@ -1,6 +1,7 @@
 import setGenericToken from "./token/genericToken";
 import jsonToken from "./token/jsonToken";
 import makefileToken from "./token/makefileToken";
+import markdownToken from "./token/markdown";
 import markupToken from "./token/markup";
 import phpToken from "./token/phpToken";
 import scssToken from "./token/scssToken";
@@ -17,6 +18,7 @@ export default function tokenColorGenerator() {
   markupToken(token);
   scssToken(token);
   typescriptToken(token);
+  markdownToken(token);
 
   return token.getData();
 }

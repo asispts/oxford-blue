@@ -2,6 +2,9 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
+  ### Added
+  - Bring back markdown syntax highlighting
+
   ### Changed
   - `normal` font-style is not supported. Replace it with an empty string.
   - Update `statusbar` color for `debugging` state

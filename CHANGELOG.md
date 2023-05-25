@@ -3,12 +3,13 @@ All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
   ### Added
+  - Update `statusbar` color for `debugging` state
+  - Update `statusbar` color for `nofolder` state
   - Bring back markdown syntax highlighting
 
   ### Changed
   - `normal` font-style is not supported. Replace it with an empty string.
-  - Update `statusbar` color for `debugging` state
-  - Update `statusbar` color for `nofolder` state
+
 
 ## [0.6] - 2023-01-24
 Introduce a brand new colors and schema. Prepare to support semantic colors.

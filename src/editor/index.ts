@@ -1,0 +1,13 @@
+export { default as setActivityBar } from './activityBar';
+export { default as setBreadcrumb } from './breadcrumb';
+export { default as setDropdown } from './dropdown';
+export { default as setEditor } from './editor';
+export { default as setEditorSuggestWidget } from './editorSuggestWidget';
+export { default as setEditorWidget } from './editorWidget';
+export { default as editorGeneralSetting } from './general';
+export { default as setHeaderTab } from './headerTab';
+export { default as setInputColor } from './input';
+export { default as setListColor } from './list';
+export { default as setPanelColor } from './panel';
+export { default as setSidebarColor } from './sideBar';
+export { default as setStatusBar } from './statusBar';

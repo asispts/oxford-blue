@@ -1,16 +1,17 @@
 type EditorColorMap = Map<string, string>;
 
-type SemanticColor = {
-  [key: string]: string;
-};
-
-interface TokenSettingType {
+type TokenSettingType = {
   foreground: string;
   fontStyle?: string;
-}
+};
 
 type TokenColorType = {
   name: string;
-  scope: Array<string>;
+  scope: string[];
   settings: TokenSettingType;
 };
+
+interface TokenColor {
+  set(name: string, scope: string[], settings: TokenSettingType): void;
+  getData(): TokenColorType[];
+}

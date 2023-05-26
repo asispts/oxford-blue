@@ -40,10 +40,20 @@
         ]
     },
     "scripts": {
-        "dev": "ts-node-dev --respawn --files src/main.ts"
+        "build": "ts-node src/main.ts",
+        "dev": "ts-node-dev --respawn --files src/main.ts",
+        "cs": "prettier -c src",
+        "cs:fix": "prettier -w src",
+        "lint": "eslint src --ext .ts",
+        "lint:fix": "eslint src --ext .ts --fix"
     },
     "devDependencies": {
         "@types/node": "^20.2.3",
+        "@typescript-eslint/eslint-plugin": "^5.59.7",
+        "@typescript-eslint/parser": "^5.59.7",
+        "eslint": "^8.41.0",
+        "prettier": "^2.8.8",
+        "ts-node": "^10.9.1",
         "ts-node-dev": "^2.0.0",
         "typescript": "^5.0.4"
     }

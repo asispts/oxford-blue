@@ -1,6 +1,6 @@
-import { editorColorDef } from "../color";
+import { editorColorDef } from '../color';
 
 export default function setEditorWidget(data: EditorColorMap) {
-  data.set("editorWidget.background", editorColorDef.bgColor);
-  data.set("editorWidget.border", editorColorDef.primary);
+  data.set('editorWidget.background', editorColorDef.bgColor);
+  data.set('editorWidget.border', editorColorDef.primary);
 }

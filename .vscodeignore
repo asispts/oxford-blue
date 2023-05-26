@@ -2,9 +2,14 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+.gitattributes
+
 preview/**
 node_modules/**
+src/**
+
+.eslintrc.js
+.prettierignore
+.prettierrc
 pnpm-lock.yaml
 tsconfig.json
-src/**

@@ -1,15 +1,13 @@
 {
     "name": "oxford-blue",
     "displayName": "Oxford-blue Theme",
-    "description": "Yet another Visual Studio Code (vscode) dark theme",
+    "description": "A stylish dark theme for VSCode, optimized for PHP and frontend development.",
     "publisher": "asispts",
     "license": "MIT",
     "version": "0.6.0",
     "icon": "icon.png",
     "keywords": [
-        "theme",
-        "dark theme",
-        "vscode theme"
+        "dark-theme"
     ],
     "author": {
         "name": "Asis Pattisahusiwa",

@@ -1,12 +1,12 @@
-import setGenericToken from "./token/genericToken";
-import jsonToken from "./token/jsonToken";
-import makefileToken from "./token/makefileToken";
-import markdownToken from "./token/markdown";
-import markupToken from "./token/markup";
-import phpToken from "./token/phpToken";
-import scssToken from "./token/scssToken";
-import typescriptToken from "./token/typescript";
-import TokenColor from "./TokenColor";
+import setGenericToken from './token/genericToken';
+import jsonToken from './token/jsonToken';
+import makefileToken from './token/makefileToken';
+import markdownToken from './token/markdown';
+import markupToken from './token/markup';
+import phpToken from './token/phpToken';
+import scssToken from './token/scssToken';
+import typescriptToken from './token/typescript';
+import TokenColor from './TokenColor';
 
 export default function tokenColorGenerator() {
   const token = new TokenColor();

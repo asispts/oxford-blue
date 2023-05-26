@@ -4,7 +4,7 @@
     "description": "A stylish dark theme for VSCode, optimized for PHP and frontend development.",
     "publisher": "asispts",
     "license": "MIT",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "icon": "icon.png",
     "keywords": [
         "dark-theme"

@@ -2,6 +2,9 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
+
+
+## [0.7.0] - 2023-05-26
   ### Added
   - Update `statusbar` color for `debugging` state
   - Update `statusbar` color for `nofolder` state
@@ -80,7 +83,8 @@ Introduce a brand new colors and schema. Prepare to support semantic colors.
 - Initial release
 
 
-[Unreleased]: https://github.com/asispts/oxford-blue/compare/v0.6...master
+[Unreleased]: https://github.com/asispts/oxford-blue/compare/v0.7.0...master
+[0.7.0]: https://github.com/asispts/oxford-blue/releases/tag/v0.7.0
 [0.6]: https://github.com/asispts/oxford-blue/releases/tag/v0.6
 [0.5]: https://github.com/asispts/oxford-blue/releases/tag/v0.5
 [0.4]: https://github.com/asispts/oxford-blue/releases/tag/v0.4

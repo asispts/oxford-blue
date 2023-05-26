@@ -7,6 +7,7 @@ All notable changes to this theme will be documented in this file.
   - Update `statusbar` color for `nofolder` state
   - Bring back markdown syntax highlighting
   - Highlight `jsdoc` keyword
+  - Add semantic colors
 
   ### Changed
   - `normal` font-style is not supported. Replace it with an empty string.

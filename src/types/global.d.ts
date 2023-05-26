@@ -1,4 +1,4 @@
-type EditorColorMap = Map<string, string>;
+type ColorMap = Map<string, string>;
 
 type TokenSettingType = {
   foreground: string;

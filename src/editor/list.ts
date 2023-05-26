@@ -1,6 +1,6 @@
 import { editorColorDef } from '../color';
 
-export default function setListColor(data: EditorColorMap) {
+export default function setListColor(data: ColorMap) {
   data.set('list.focusOutline', editorColorDef.primary);
 
   data.set('list.hoverBackground', editorColorDef.bgLight);

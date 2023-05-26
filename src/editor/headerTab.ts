@@ -1,6 +1,6 @@
 import { editorColorDef } from '../color';
 
-export default function setHeaderTab(data: EditorColorMap) {
+export default function setHeaderTab(data: ColorMap) {
   const bgAlpha = `${editorColorDef.primary}40`;
 
   data.set('editorGroupHeader.tabsBackground', editorColorDef.bgDark);

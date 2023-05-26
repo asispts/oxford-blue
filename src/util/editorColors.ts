@@ -1,7 +1,7 @@
 import * as editorModules from '../editor';
 
 export default function editorColors(): Record<string, string> {
-  const data: EditorColorMap = new Map();
+  const data: ColorMap = new Map();
 
   Object.values(editorModules).forEach((fn) => {
     if (typeof fn === 'function') {

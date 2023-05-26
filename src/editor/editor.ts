@@ -1,6 +1,6 @@
 import { editorColorDef } from '../color';
 
-export default function setEditor(data: EditorColorMap) {
+export default function setEditor(data: ColorMap) {
   data.set('editor.background', editorColorDef.editorBg);
   data.set('editor.foreground', editorColorDef.editorFg);
   data.set('editorCursor.foreground', editorColorDef.accent);

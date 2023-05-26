@@ -1,20 +1,12 @@
 import { tokenColorsDef } from '../color';
-import TokenColor from '../TokenColor';
 
-export default function setGenericToken(token: TokenColor) {
-  token.set('Default text', ['variable.other.property'], {
-    foreground: tokenColorsDef.default,
-  });
-
-  token.set('Muted text', ['punctuation'], {
-    foreground: tokenColorsDef.muted,
-  });
-
+export default function genericToken(token: TokenColor): void {
+  token.set('Default text', ['variable.other.property'], { foreground: tokenColorsDef.default });
+  token.set('Muted text', ['punctuation'], { foreground: tokenColorsDef.muted });
   token.set('Comment', ['comment', 'punctuation.definition.comment'], {
     foreground: tokenColorsDef.comment,
     fontStyle: 'italic',
   });
-
   token.set('String', ['string', 'punctuation.definition.string'], {
     foreground: tokenColorsDef.string,
   });

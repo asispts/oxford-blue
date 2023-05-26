@@ -1,5 +1,4 @@
 import { syntaxColors } from '../color';
-import TokenColor from '../TokenColor';
 
 export default function markupToken(token: TokenColor) {
   token.set(

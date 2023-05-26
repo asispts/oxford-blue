@@ -203,37 +203,6 @@
             }
         },
         {
-            "name": "<?php and ?> symbols",
-            "scope": [
-                "punctuation.section.embedded"
-            ],
-            "settings": {
-                "foreground": "#ffa65e"
-            }
-        },
-        {
-            "name": "PHPDoc keywords",
-            "scope": [
-                "keyword.other.phpdoc"
-            ],
-            "settings": {
-                "foreground": "#2D658D",
-                "fontStyle": "italic bold"
-            }
-        },
-        {
-            "name": "PHP8 Attributes",
-            "scope": [
-                "support.attribute.php",
-                "meta.attribute.php",
-                "entity.name.variable.parameter"
-            ],
-            "settings": {
-                "foreground": "#2D658D",
-                "fontStyle": "italic"
-            }
-        },
-        {
             "name": "JSON object key",
             "scope": [
                 "support.type.property-name.json",
@@ -259,74 +228,6 @@
             ],
             "settings": {
                 "foreground": "#64de83"
-            }
-        },
-        {
-            "name": "String",
-            "scope": [
-                "entity.name.tag",
-                "punctuation.definition.tag"
-            ],
-            "settings": {
-                "foreground": "#ff7a73"
-            }
-        },
-        {
-            "name": "Markup attribute name",
-            "scope": [
-                "entity.other.attribute-name"
-            ],
-            "settings": {
-                "foreground": "#ffa65e"
-            }
-        },
-        {
-            "name": "JSX component",
-            "scope": [
-                "support.class.component"
-            ],
-            "settings": {
-                "foreground": "#13d3d3"
-            }
-        },
-        {
-            "name": "SCSS keyword",
-            "scope": [
-                "keyword.control.at-rule",
-                "punctuation.definition.keyword",
-                "punctuation.definition.interpolation"
-            ],
-            "settings": {
-                "foreground": "#369CFF"
-            }
-        },
-        {
-            "name": "CSS class and ID selector",
-            "scope": [
-                "punctuation.definition.entity.css"
-            ],
-            "settings": {
-                "foreground": "#ffa65e"
-            }
-        },
-        {
-            "name": "String template expression",
-            "scope": [
-                "punctuation.definition.template-expression"
-            ],
-            "settings": {
-                "foreground": "#ff7a73"
-            }
-        },
-        {
-            "name": "jsdoc keyword",
-            "scope": [
-                "punctuation.definition.block.tag.jsdoc",
-                "storage.type.class.jsdoc"
-            ],
-            "settings": {
-                "foreground": "#2D658D",
-                "fontStyle": "bold italic"
             }
         },
         {
@@ -417,6 +318,105 @@
             ],
             "settings": {
                 "foreground": "#9BC4E2"
+            }
+        },
+        {
+            "name": "String",
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#ff7a73"
+            }
+        },
+        {
+            "name": "Markup attribute name",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "JSX component",
+            "scope": [
+                "support.class.component"
+            ],
+            "settings": {
+                "foreground": "#13d3d3"
+            }
+        },
+        {
+            "name": "<?php and ?> symbols",
+            "scope": [
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "PHPDoc keywords",
+            "scope": [
+                "keyword.other.phpdoc"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "PHP8 Attributes",
+            "scope": [
+                "support.attribute.php",
+                "meta.attribute.php",
+                "entity.name.variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "SCSS keyword",
+            "scope": [
+                "keyword.control.at-rule",
+                "punctuation.definition.keyword",
+                "punctuation.definition.interpolation"
+            ],
+            "settings": {
+                "foreground": "#369CFF"
+            }
+        },
+        {
+            "name": "CSS class and ID selector",
+            "scope": [
+                "punctuation.definition.entity.css"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
+            "name": "String template expression",
+            "scope": [
+                "punctuation.definition.template-expression"
+            ],
+            "settings": {
+                "foreground": "#ff7a73"
+            }
+        },
+        {
+            "name": "jsdoc keyword",
+            "scope": [
+                "punctuation.definition.block.tag.jsdoc",
+                "storage.type.class.jsdoc"
+            ],
+            "settings": {
+                "foreground": "#2D658D",
+                "fontStyle": "bold italic"
             }
         }
     ]

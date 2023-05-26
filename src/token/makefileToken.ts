@@ -1,5 +1,4 @@
 import { syntaxColors } from '../color';
-import TokenColor from '../TokenColor';
 
 export default function makefileToken(token: TokenColor) {
   token.set('Makefile target', ['entity.name.function.target'], {

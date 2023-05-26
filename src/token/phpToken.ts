@@ -1,5 +1,4 @@
 import { tokenColorsDef } from '../color';
-import TokenColor from '../TokenColor';
 
 export default function phpToken(token: TokenColor) {
   token.set(

@@ -1,6 +1,6 @@
 import { writeFile } from 'fs/promises';
-import tokenColorGenerator from './tokenColorGenerator';
 import * as editorModules from './editor';
+import tokenColors from './util/tokenColors';
 
 const editorColors = (): Record<string, string> => {
   const data: EditorColorMap = new Map();
@@ -20,7 +20,7 @@ const editorColors = (): Record<string, string> => {
     type: 'dark',
     semanticHighlighting: true,
     colors: editorColors(),
-    tokenColors: tokenColorGenerator(),
+    tokenColors: tokenColors(),
   };
 
   try {

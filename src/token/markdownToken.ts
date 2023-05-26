@@ -1,5 +1,4 @@
 import { syntaxColors, tokenColorsDef } from '../color';
-import TokenColor from '../TokenColor';
 
 export default function markdownToken(token: TokenColor) {
   token.set('Markdown headings', ['markup.heading.markdown', 'punctuation.definition.heading.markdown'], {

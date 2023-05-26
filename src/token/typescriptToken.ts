@@ -9,4 +9,8 @@ export default function typescriptToken(token: TokenColor) {
     foreground: tokenColorsDef.comment,
     fontStyle: 'bold italic',
   });
+
+  token.set('Typescript braces', ['meta.brace.round.ts', 'meta.brace.square.ts'], {
+    foreground: tokenColorsDef.muted,
+  });
 }

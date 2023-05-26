@@ -419,5 +419,21 @@
                 "fontStyle": "bold italic"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "*.defaultLibrary": "#ff7a73",
+        "class.declaration": "#72ABD6",
+        "function": "#E6427C",
+        "function.declaration": "#72ABD6",
+        "interface": "#ff7a73",
+        "interface.declaration": "#72ABD6",
+        "method": "#72ABD6",
+        "method.declaration": "#E6427C",
+        "method.defaultLibrary": "#ff73ef",
+        "property": "#72ABD6",
+        "property.declaration": "#13d3d3",
+        "property.defaultLibrary": "#ff73ef",
+        "type": "#ff7a73",
+        "type.declaration": "#72ABD6"
+    }
 }

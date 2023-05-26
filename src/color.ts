@@ -11,7 +11,7 @@ const paleCerulean = {
 };
 
 const syntaxColors = {
-  blue: '#176bcf',
+  blueLight: '#369CFF',
   yellow: '#efff73',
   yellowDark: '#d3e830',
   green: '#64de83',
@@ -19,9 +19,9 @@ const syntaxColors = {
   orange: '#ffa65e',
   magenta: '#ff73ef',
   salmon: '#ff7a73',
-  blueLight: '#369CFF', // unused
-  cyan: '#13d3d3', // unused
-  red: '#E6427C', // unused
+  cyan: '#13d3d3', // used in semantic
+  red: '#E6427C', // used in semantic
+  blue: '#176bcf', // unused
 };
 
 const editorColorDef = {

@@ -1,6 +1,7 @@
 import { writeFile } from 'fs/promises';
 import tokenColors from './util/tokenColors';
 import editorColors from './util/editorColors';
+import semanticColors from './util/semanticColors';
 
 (async () => {
   const theme = {
@@ -9,6 +10,7 @@ import editorColors from './util/editorColors';
     semanticHighlighting: true,
     colors: editorColors(),
     tokenColors: tokenColors(),
+    semanticTokenColors: semanticColors(),
   };
 
   try {

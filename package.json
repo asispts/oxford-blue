@@ -1,7 +1,7 @@
 {
     "name": "oxford-blue",
     "displayName": "Oxford-blue Theme",
-    "description": "A stylish dark theme for VSCode, optimized for PHP and frontend development.",
+    "description": "A stylish VSCode dark theme for PHP, TypeScript, and frontend development",
     "publisher": "asispts",
     "license": "MIT",
     "version": "0.7.0",

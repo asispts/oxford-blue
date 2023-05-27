@@ -9,10 +9,10 @@
 [![](https://img.shields.io/open-vsx/dt/asispts/oxford-blue?label=Download)](https://open-vsx.org/extension/asispts/oxford-blue)
 
 
-> A stylish dark theme for VSCode, optimized for `PHP` and frontend development.
+> A stylish VSCode dark theme for PHP, TypeScript, and frontend development
 
 
-`oxford-blue` is a Visual Studio Code (VSCode) dark theme designed primarily for `PHP` and frontend developers. It aims to provide a comfortable coding experience with a carefully selected color palette, ensuring high readability and an appealing aesthetic. If you find that the theme doesn't look optimal in your preferred languages, please feel free to provide feedback.
+`oxford-blue` is a Visual Studio Code (VSCode) dark theme designed primarily for `PHP`, `TypeScript`, and frontend developers. It aims to provide a comfortable coding experience with a carefully selected color palette, ensuring high readability and an appealing aesthetic. If you find that the theme doesn't look optimal in your preferred languages, please feel free to provide feedback.
 
 
 ## Installation

@@ -2,6 +2,8 @@
 All notable changes to this theme will be documented in this file.
 
 ## [Unreleased]
+  ### Addedd
+  - Syntax color for `punctuation.accessor`
 
 
 ## [0.7.0] - 2023-05-26

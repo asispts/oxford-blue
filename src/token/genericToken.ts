@@ -101,4 +101,6 @@ export default function genericToken(token: TokenColor): void {
       fontStyle: 'italic',
     }
   );
+
+  token.set('Punctuation accessor', ['punctuation.accessor'], { foreground: tokenColorsDef.keywordOperator });
 }

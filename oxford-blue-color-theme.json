@@ -203,6 +203,15 @@
             }
         },
         {
+            "name": "Punctuation accessor",
+            "scope": [
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#ffa65e"
+            }
+        },
+        {
             "name": "JSON object key",
             "scope": [
                 "support.type.property-name.json",

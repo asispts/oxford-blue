@@ -1,41 +1,40 @@
 {
-    "name": "oxford-blue",
-    "displayName": "Oxford-blue Theme",
-    "description": "A stylish VSCode dark theme for PHP, TypeScript, and frontend development",
-    "publisher": "asispts",
-    "license": "MIT",
-    "version": "0.7.0",
-    "icon": "icon.png",
-    "keywords": [
-        "dark-theme"
-    ],
-    "author": {
-        "name": "Asis Pattisahusiwa",
-        "email": "asispts@gmail.com",
-        "url": "https://github.com/asispts"
-    },
-    "homepage": "https://github.com/asispts/oxford-blue",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/asispts/oxford-blue"
-    },
-    "bugs": {
-        "url": "https://github.com/asispts/oxford-blue/issues"
-    },
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-      "Themes"
-    ],
-    "contributes": {
-      "themes": [
-        {
-          "label": "oxford-blue",
-          "uiTheme": "vs-dark",
-                "path": "./oxford-blue-color-theme.json"
-        }
-      ]
-    }
+  "name": "oxford-blue",
+  "displayName": "Oxford-blue Theme",
+  "description": "A stylish VSCode dark theme for PHP, TypeScript, and frontend development",
+  "publisher": "asispts",
+  "license": "MIT",
+  "version": "0.7.0",
+  "icon": "icon.png",
+  "keywords": [
+    "dark-theme"
+  ],
+  "author": {
+    "name": "Asis Pattisahusiwa",
+    "email": "asispts@gmail.com",
+    "url": "https://github.com/asispts"
+  },
+  "homepage": "https://github.com/asispts/oxford-blue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asispts/oxford-blue"
+  },
+  "bugs": {
+    "url": "https://github.com/asispts/oxford-blue/issues"
+  },
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "oxford-blue",
+        "uiTheme": "vs-dark",
+        "path": "./oxford-blue-color-theme.json"
+      }
+    ]
   }
-  
+}

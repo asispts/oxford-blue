@@ -1,3 +1,8 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
 
+/.github export-ignore
+/preview export-ignore
+/.gitattribute export-ignore
+/.gitignore export-ignore
+/.vscodeignore export-ignore
